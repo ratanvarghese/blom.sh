@@ -1,0 +1,11 @@
+{
+"url": $URL,
+"id": $URL,
+"title": $TITLE,
+"date_modified": $EDITDAY,
+"date_published": $WRITEDAY,
+"content_html": $CONTENT,
+"attachments": $ATTACHLIST,
+"tags": $TAGLIST,
+"_ratan_blog_class": $ARTICLECLASS
+}
