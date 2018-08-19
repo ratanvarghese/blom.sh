@@ -39,8 +39,8 @@ editday_tq=$(date -d "$editday_raw" | tqdate --short | tr -d "\n" | tr " " -)
 editday_gr=$(date -d "$editday_raw" --iso-8601 | tr -d "\n")
 
 content=$(markdown $article_path/content.md | tee $article_path/content.html)
-gzip -k --best $article_path/content.md
-gzip -k --best $article_path/content.html
+gzip -k --best --force $article_path/content.md
+gzip -k --best --force $article_path/content.html
 
 if [ -f "$article_path/item.json" ]; then
 	writeday_item=$(cat $article_path/item.json | jq -r '.date_published')
@@ -98,4 +98,4 @@ m4	-D_TITLE="$title" \
 	-D_BASICLINK="$article_url/content.html" \
 	$template_path/content.m4 $template_path/page.html \
 	| tee $article_path/index.html \
-	| gzip --best > $article_path/index.html.gz
+	| gzip --best --force > $article_path/index.html.gz
