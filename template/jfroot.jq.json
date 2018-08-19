@@ -1,0 +1,7 @@
+{
+"version": "https://jsonfeed.org/version/1",
+"title": "ratan.blog",
+"home_page_url": "http://ratan.blog",
+"feed_url": "http://ratan.blog/feeds/json",
+"items": $ITEMS
+}
