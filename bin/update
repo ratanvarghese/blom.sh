@@ -7,8 +7,8 @@ for dir in ./*; do
 	bin/article -A "$dir" -T ./template
 done
 
-items=$(cat */item.json \
-		| jq -s 'sort_by(.date_published) | reverse | del(.[]._ratan_blog_class)')
+itemsort="sort_by(.date_published) | reverse | del(.[]._ratan_blog_class)"
+items=$(cat */item.json | jq -s $itemsort)
 
 jq -n -c -f template/jfroot.jq.json \
 	--argjson ITEMS "$items" \
