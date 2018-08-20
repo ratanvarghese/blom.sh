@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# vim : set filetype=sh
+
+rm */*.gz */content.html */index.html index.html*
+rm feeds/*
