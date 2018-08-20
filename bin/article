@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # vim : set filetype=sh
 
 title=''
@@ -35,7 +34,9 @@ while getopts ":t:c:g:T:A:" opt; do
 done
 
 editday_raw=$(stat $article_path/content.md -c %z)
-article_url="http://www.ratan.blog/${article_path##*/}"
+host_url="http://www.ratan.blog"
+relative_url="/${article_path##*/}"
+article_url="$host_url$relative_url"
 today_tq=$(date | tqdate --short | tr -d "\n" | tr " " -)
 today_gr=$(date --iso-8601 | tr -d "\n")
 editday_item=$(date -d "$editday_raw" --rfc-3339=seconds | tr -d "\n" | tr " " T)
@@ -97,9 +98,9 @@ m4	-D_TITLE="$title" \
 	-D_WRITEDAY_TQ="$writeday_tq" \
 	-D_WRITEDAY_GR="$writeday_gr" \
 	-D_ARTICLE_CONTENT="$content" \
-	-D_PERMALINK="$article_url" \
-	-D_MDLINK="$article_url/content.md" \
-	-D_BASICLINK="$article_url/content.html" \
+	-D_PERMALINK="$relative_url" \
+	-D_MDLINK="$relative_url/content.md" \
+	-D_BASICLINK="$relative_url/content.html" \
 	$template_path/content.m4 $template_path/page.html \
 	| tee $article_path/index.html \
 	| gzip --best --force > $article_path/index.html.gz

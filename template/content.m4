@@ -5,6 +5,7 @@ define(`_TOTAL_CONTENT', `<h2>_TITLE</h2>
 
 _ARTICLE_CONTENT
 
+<hr />
 <a href="_PERMALINK">[Permalink]</a><br />
 <a href="_MDLINK">[Markdown]</a><br />
 <a href="_BASICLINK">[Basic]</a><br />')

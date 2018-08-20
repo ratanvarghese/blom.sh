@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # vim : set filetype=sh
 
 for dir in ./*; do
@@ -10,8 +9,9 @@ done
 itemsort="sort_by(.date_published) | reverse | del(.[]._ratan_blog_class)"
 items=$(cat */item.json | jq -s "$itemsort")
 
-tags_content=$(echo "$items" | sorttags | markdown)
-archive_content=$(echo "$items" | sortarchive | markdown)
+host_url="http:\/\/www.ratan.blog"
+tags_content=$(echo "$items" | sorttags | sed "s/($host_url/(/g" - |  markdown)
+archive_content=$(echo "$items" | sortarchive | sed "s/($host_url/(/g" - | markdown)
 today_tq=$(date | tqdate --short | tr -d "\n" | tr " " -)
 today_gr=$(date --iso-8601 | tr -d "\n")
 
