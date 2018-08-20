@@ -48,7 +48,6 @@ func main() {
 	atomFlag := flag.Bool("atom", false, "Output Atom Feed")
 	rssFlag := flag.Bool("rss", false, "Output RSS Feed")
 	help := flag.Bool("help", false, "Print command-line options")
-
 	flag.Parse()
 
 	if *help {
@@ -56,9 +55,8 @@ func main() {
 		return
 	}
 
-	d := json.NewDecoder(os.Stdin)
-
 	var jsf jsfMain
+	d := json.NewDecoder(os.Stdin)
 	decodeErr := d.Decode(&jsf)
 	if decodeErr != nil {
 		log.Fatal(decodeErr)
@@ -68,7 +66,6 @@ func main() {
 	gf.Title = jsf.Title
 	gf.Link = &feeds.Link{Href: *hostRawURL}
 	gf.Created = time.Now()
-
 	gf.Items = make([]*feeds.Item, len(jsf.Items))
 	for i, ji := range jsf.Items {
 		gf.Items[i] = new(feeds.Item)
@@ -90,5 +87,4 @@ func main() {
 		}
 		fmt.Println(atom)
 	}
-
 }
