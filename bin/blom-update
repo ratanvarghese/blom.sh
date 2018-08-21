@@ -1,0 +1,69 @@
+#!/bin/bash
+# vim : set filetype=sh
+
+template_path=$PWD
+site_root=$PWD
+
+while getopts ":S:T:" opt; do
+	case $opt in
+		T)
+			template_path=$(realpath $OPTARG)
+			;;
+		S)
+			site_root=$(realpath $OPTARG)
+			;;
+		:)
+			echo "Option -$OPTARG requires argument"
+			exit 1
+			;;
+	esac
+done
+
+for dir in $site_root/*; do
+	[ -e "$dir/item.json" ] || continue
+	blom-article -A "$dir" -T "$template_path"
+done
+
+itemsort="sort_by(.date_published) | reverse | del(.[]._ratan_blog_class)"
+items=$(cat $site_root/*/item.json | jq -s "$itemsort")
+
+host_url="http:\/\/www.ratan.blog"
+tags_content=$(echo "$items" | blom-tags | sed "s/($host_url/(/g" - |  markdown)
+archive_content=$(echo "$items" | blom-archive | sed "s/($host_url/(/g" - | markdown)
+today_tq=$(date | blom-tqdate --short | tr -d "\n" | tr " " -)
+today_gr=$(date --iso-8601 | tr -d "\n")
+
+m4	-D_TITLE="Tags" \
+	-D_TODAY_TQ="$today_tq" \
+	-D_TODAY_GR="$today_gr" \
+	-D_ARTICLE_CLASS="" \
+	-D_TOTAL_CONTENT="$tags_content" \
+	$template_path/page.html \
+	| tee $site_root/tags/index.html \
+	| gzip --best --force > $site_root/tags/index.html.gz
+
+m4	-D_TITLE="Archive" \
+	-D_TODAY_TQ="$today_tq" \
+	-D_TODAY_GR="$today_gr" \
+	-D_ARTICLE_CLASS="" \
+	-D_TOTAL_CONTENT="$archive_content" \
+	$template_path/page.html \
+	| tee $site_root/archive/index.html \
+	| gzip --best --force > $site_root/archive/index.html.gz
+
+latest_url=$(jq -n -r --argjson ITEMS "$items" '$ITEMS[0].url')
+latest_dir=${latest_url##*/}
+cp $site_root/$latest_dir/index.html* $site_root
+
+jq -n -c -f $template_path/jfroot.jq.json \
+	--argjson ITEMS "$items" \
+	| tee $site_root/feeds/json \
+	| gzip --best --force > $site_root/feeds/json.gz
+
+cat $site_root/feeds/json | blom-feed --atom \
+	| tee $site_root/feeds/atom \
+	| gzip --best --force > $site_root/feeds/atom.gz
+
+cat $site_root/feeds/json | blom-feed --rss \
+	| tee $site_root/feeds/rss \
+	| gzip --best --force > $site_root/feeds/rss.gz

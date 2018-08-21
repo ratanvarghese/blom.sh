@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# vim : set filetype=sh
+
+site_root=$PWD
+while getopts ":S:T:" opt; do
+	case $opt in
+		S)
+			site_root=$(realpath $OPTARG)
+			;;
+		:)
+			echo "Option -$OPTARG requires argument"
+			exit 1
+			;;
+	esac
+done
+
+rm $site_root/*/*.gz $site_root/*/content.html $site_root/*/index.html $site_root/index.html*
+rm $site_root/feeds/*
