@@ -16,6 +16,7 @@ func main() {
 	input := flag.String("input", "", "Gregorian input date, use stdin if omitted")
 	help := flag.Bool("help", false, "Print command-line options")
 	short := flag.Bool("short", false, "Use short output format")
+	diary := flag.Bool("diary", false, "Use lexically ordered diary format, overrides 'short'")
 	flag.Parse()
 
 	if *help {
@@ -41,11 +42,18 @@ func main() {
 			break
 		}
 
+		grYear := t.Year()
+		grYearDay := t.YearDay()
 		var out string
-		if *short {
-			out = tqtime.ShortDate(t.Year(), t.YearDay())
+		if *diary {
+			dayCode := tqtime.DayCode(tqtime.Day(grYear, grYearDay))
+			monthLetter := tqtime.MonthLetter(tqtime.Month(grYear, grYearDay))
+			year := tqtime.Year(grYear, grYearDay)
+			out = fmt.Sprintf("%d-%s%02s", year, monthLetter, dayCode)
+		} else if *short {
+			out = tqtime.ShortDate(grYear, grYearDay)
 		} else {
-			out = tqtime.LongDate(t.Year(), t.YearDay())
+			out = tqtime.LongDate(grYear, grYearDay)
 		}
 		fmt.Println(out)
 	}

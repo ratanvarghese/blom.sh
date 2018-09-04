@@ -42,10 +42,10 @@ editday_raw=$(stat $article_path/content.md -c %z)
 host_url="http://www.ratan.blog"
 relative_url="/${article_path##*/}"
 article_url="$host_url$relative_url"
-today_tq=$(date | blom-tqdate --short | tr -d "\n" | tr " " -)
+today_tq=$(date | blom-tqdate --diary | tr -d "\n")
 today_gr=$(date --iso-8601 | tr -d "\n")
 editday_item=$(date -d "$editday_raw" --rfc-3339=seconds | tr -d "\n" | tr " " T)
-editday_tq=$(date -d "$editday_raw" | blom-tqdate --short | tr -d "\n" | tr " " -)
+editday_tq=$(date -d "$editday_raw" | blom-tqdate --diary | tr -d "\n")
 editday_gr=$(date -d "$editday_raw" --iso-8601 | tr -d "\n")
 
 content=$(markdown $article_path/content.md | tee $article_path/content.html)
@@ -73,7 +73,7 @@ else
 	writeday_item=$editday_item
 fi
 
-writeday_tq=$(date -d "$writeday_item" | blom-tqdate --short | tr -d "\n" | tr " " -)
+writeday_tq=$(date -d "$writeday_item" | blom-tqdate --diary | tr -d "\n")
 writeday_gr=$(date -d "$writeday_item" --iso-8601 | tr -d "\n")
 
 attach_list='[]'
