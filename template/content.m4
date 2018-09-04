@@ -1,12 +1,16 @@
 divert(-1)
-define(`_TOTAL_CONTENT', `<h2>_TITLE</h2>
-<p class="date">Written _WRITEDAY_TQ [Gregorian: _WRITEDAY_GR]</p>
-<p class="date">Edited _EDITDAY_TQ [Gregorian: _EDITDAY_GR]<p>
+define(`_TOTAL_CONTENT', `<h2><a href="_PERMALINK">_TITLE</a></h2>
+<p><small>
+Written _WRITEDAY_TQ [_WRITEDAY_GR],
+Edited _EDITDAY_TQ [_EDITDAY_GR]
+</small></p>
 
 _ARTICLE_CONTENT
 
-<hr />
-<a href="_PERMALINK">[Permalink]</a><br />
-<a href="_MDLINK">[Markdown]</a><br />
-<a href="_BASICLINK">[Basic]</a><br />')
+<nav>
+<ul>
+<li><a href="_MDLINK">Markdown</a></li>
+<li><a href="_BASICLINK">Basic HTML</a></li>
+</ul>
+</nav>')
 divert

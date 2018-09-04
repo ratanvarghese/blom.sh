@@ -109,6 +109,6 @@ m4	-D_TITLE="$title" \
 	-D_PERMALINK="$relative_url" \
 	-D_MDLINK="$relative_url/content.md" \
 	-D_BASICLINK="$relative_url/content.html" \
-	$template_path/content.m4 $template_path/page.html \
+	$template_path/content.m4 $template_path/comment.m4 $template_path/page.html \
 	| tee $article_path/index.html \
 	| gzip --best --force > $article_path/index.html.gz
