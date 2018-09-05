@@ -20,14 +20,23 @@ while getopts ":S:T:" opt; do
 done
 
 for dir in $site_root/*; do
+	[ ! -L "$dir" ] || continue
 	[ -e "$dir/item.json" ] || continue
 	blom-article -A "$dir" -T "$template_path"
 done
 
-itemsort="sort_by(.date_published) | reverse"
+itemsort='sort_by(.date_published) | reverse'
+rm $site_root/1* $site_root/2* $site_root/3* $site_root/4* $site_root/5* $site_root/6* $site_root/7* $site_root/8* $site_root/9*
 items=$(cat $site_root/*/item.json | jq -s "$itemsort")
 
 host_url="http:\/\/www.ratan.blog"
+path_list=$(echo "$items" | jq -r '.[].url' | sed "s/$host_url//g" - | tr " " "\n")
+index=$(echo "$items" | jq -r '. | length')
+for path in $path_list; do
+	ln -s $site_root$path $site_root/$index
+	((index--))
+done
+
 tags_content=$(echo "$items" | blom-tags | sed "s/($host_url/(/g" - |  markdown)
 archive_content=$(echo "$items" | blom-archive | sed "s/($host_url/(/g" - | markdown)
 today_tq=$(date | blom-tqdate --diary | tr -d "\n")
@@ -53,7 +62,7 @@ m4	-D_TITLE="Archive" \
 	| tee $site_root/archive/index.html \
 	| gzip --best --force > $site_root/archive/index.html.gz
 
-latest=$(jq -n -r --argjson ITEMS "$items" '$ITEMS[0]')
+latest=$(echo "$items" | jq -r '.[0]')
 latest_title=$(jq -n -r --argjson LATEST "$latest" '$LATEST.title')
 latest_url=$(jq -n -r --argjson LATEST "$latest" '$LATEST.url')
 latest_class=$(jq -n -r --argjson LATEST "$latest" '$LATEST._ratan_blog_class')
@@ -82,8 +91,7 @@ m4	-D_TITLE="$latest_title" \
 	| tee $site_root/index.html \
 	| gzip --best --force > $site_root/index.html.gz
 
-jq -n -c -f $template_path/jfroot.jq.json \
-	--argjson ITEMS "$items" \
+echo "$items" | jq -c -f $template_path/jfroot.jq.json \
 	| jq 'del(.items[]._ratan_blog_class)' \
 	| tee $site_root/feeds/json \
 	| gzip --best --force > $site_root/feeds/json.gz

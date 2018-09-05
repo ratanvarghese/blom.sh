@@ -51,6 +51,7 @@ func archiveLines(itemList []jsfItem) []string {
 	}
 	var t1 time.Time //intentionally starting at zero value, always a different year than first article.
 	outputLines := make([]string, 0)
+	itemCount := len(itemList)
 	for i, ji := range itemList {
 		t2, _ := time.Parse(time.RFC3339, ji.DatePublished)
 		if sep, sepText := archiveSeperator(t1, t2); sep {
@@ -59,7 +60,10 @@ func archiveLines(itemList []jsfItem) []string {
 			}
 			outputLines = append(outputLines, sepText)
 		}
-		outputLines = append(outputLines, fmt.Sprintf("+ [%v](%v)", ji.Title, ji.URL))
+		shortPath := itemCount - i
+		shortURL := "r3n.me"
+		line := fmt.Sprintf("+ [%v](%v), short URL: [%v/%v](/%v)", ji.Title, ji.URL, shortURL, shortPath, shortPath)
+		outputLines = append(outputLines, line)
 		t1 = t2
 	}
 	return outputLines
