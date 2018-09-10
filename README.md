@@ -2,7 +2,7 @@
 
 `blom` is the content manager for [my blog](http://ratan.blog). Other blogs should probably avoid using it.
 
-This features has most of the features of the [old implementation](https://github.com/ratanvarghese/blom), except for 
+This version has most of the features of the [old implementation](https://github.com/ratanvarghese/blom), except for 
 + JSON Feed pagination
 + Reading from `content.html`: all content must be provided as `content.md` (note that HTML can be trivially embedded in Markdown)
 + Golang HTML templates: these have been replaced with m4 based templates which are included in the repository.
