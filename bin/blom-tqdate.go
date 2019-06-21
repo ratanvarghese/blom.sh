@@ -38,6 +38,7 @@ func main() {
 		}
 		t, parseErr := time.Parse(*inputFormat, strings.TrimSpace(line))
 		if parseErr != nil {
+			fmt.Println("Yikes")
 			log.Fatal(parseErr.Error())
 			break
 		}

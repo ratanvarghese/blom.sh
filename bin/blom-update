@@ -39,7 +39,7 @@ done
 
 tags_content=$(echo "$items" | blom-tags | sed "s/($host_url/(/g" - |  markdown)
 archive_content=$(echo "$items" | blom-archive | sed "s/($host_url/(/g" - | markdown)
-today_tq=$(date | blom-tqdate --diary | tr -d "\n")
+today_tq=$(date --iso-8601 | blom-tqdate --diary --inputformat 2006-01-02 | tr -d "\n")
 today_gr=$(date --iso-8601 | tr -d "\n")
 
 m4	-D_TITLE="Tags" \
@@ -69,10 +69,10 @@ latest_class=$(jq -n -r --argjson LATEST "$latest" '$LATEST._ratan_blog_class')
 latest_content=$(jq -n -r --argjson LATEST "$latest" '$LATEST.content_html')
 latest_editday_raw=$(jq -n -r --argjson LATEST "$latest" '$LATEST.date_modified')
 latest_editday_gr=$(date -d "$latest_editday_raw" --iso-8601 | tr -d "\n")
-latest_editday_tq=$(date -d "$latest_editday_raw" | blom-tqdate --diary | tr -d "\n")
+latest_editday_tq=$(date -d "$latest_editday_raw" --iso-8601 | blom-tqdate --diary --inputformat 2006-01-02 | tr -d "\n")
 latest_writeday_raw=$(jq -n -r --argjson LATEST "$latest" '$LATEST.date_published')
 latest_writeday_gr=$(date -d "$latest_writeday_raw" --iso-8601 | tr -d "\n")
-latest_writeday_tq=$(date -d "$latest_writeday_raw" | blom-tqdate --diary | tr -d "\n")
+latest_writeday_tq=$(date -d "$latest_writeday_raw" --iso-8601 | blom-tqdate --diary --inputformat 2006-01-02 | tr -d "\n")
 latest_dir=${latest_url##*/}
 
 m4	-D_TITLE="$latest_title" \
