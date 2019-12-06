@@ -1,0 +1,115 @@
+#!/bin/bash
+# vim : set filetype=sh
+
+template_path=''
+site_root=''
+
+while getopts ":S:T:" opt; do
+	case $opt in
+		T)
+			template_path=$(realpath $OPTARG)
+			;;
+		S)
+			site_root=$(realpath $OPTARG)
+			;;
+		:)
+			echo "Option -$OPTARG requires argument"
+			exit 1
+			;;
+	esac
+done
+
+if [ -z "$template_path" ]; then
+	echo "Error: no template path provided. Exiting.."
+	exit 64
+fi
+
+if [ -z "$site_root" ]; then
+	echo "Error: no site path provided. Exiting.."
+	exit 64
+fi
+
+for dir in $site_root/*; do
+	[ ! -L "$dir" ] || continue
+	[ -e "$dir/item.json" ] || continue
+	blom-article -A "$dir" -T "$template_path"
+done
+
+itemsort='sort_by(.date_published) | reverse'
+rm $site_root/1* $site_root/2* $site_root/3* $site_root/4* $site_root/5* $site_root/6* $site_root/7* $site_root/8* $site_root/9*
+items=$(cat $site_root/*/item.json | jq -s "$itemsort")
+
+host_url="http:\/\/www.ratan.blog"
+path_list=$(echo "$items" | jq -r '.[].url' | sed "s/$host_url//g" - | tr " " "\n")
+index=$(echo "$items" | jq -r '. | length')
+for path in $path_list; do
+	ln -s $site_root$path $site_root/$index
+	((index--))
+done
+
+tags_content=$(echo "$items" | blom-tags | sed "s/($host_url/(/g" - |  markdown)
+archive_content=$(echo "$items" | blom-archive | sed "s/($host_url/(/g" - | markdown)
+today_tq=$(date --iso-8601 | blom-tqdate --diary --inputformat 2006-01-02 | tr -d "\n")
+today_gr=$(date --iso-8601 | tr -d "\n")
+
+m4	-D_TITLE="Tags" \
+	-D_TODAY_TQ="$today_tq" \
+	-D_TODAY_GR="$today_gr" \
+	-D_ARTICLE_CLASS="" \
+	-D_TOTAL_CONTENT="$tags_content" \
+	-D_COMMENT_SECTION="" \
+	$template_path/page.html \
+	| tee $site_root/tags/index.html \
+	| gzip --best --force > $site_root/tags/index.html.gz
+
+m4	-D_TITLE="Archive" \
+	-D_TODAY_TQ="$today_tq" \
+	-D_TODAY_GR="$today_gr" \
+	-D_ARTICLE_CLASS="" \
+	-D_TOTAL_CONTENT="$archive_content" \
+	-D_COMMENT_SECTION="" \
+	$template_path/page.html \
+	| tee $site_root/archive/index.html \
+	| gzip --best --force > $site_root/archive/index.html.gz
+
+latest=$(echo "$items" | jq -r '.[0]')
+latest_title=$(jq -n -r --argjson LATEST "$latest" '$LATEST.title')
+latest_url=$(jq -n -r --argjson LATEST "$latest" '$LATEST.url')
+latest_class=$(jq -n -r --argjson LATEST "$latest" '$LATEST._ratan_blog_class')
+latest_content=$(jq -n -r --argjson LATEST "$latest" '$LATEST.content_html')
+latest_editday_raw=$(jq -n -r --argjson LATEST "$latest" '$LATEST.date_modified')
+latest_editday_gr=$(date -d "$latest_editday_raw" --iso-8601 | tr -d "\n")
+latest_editday_tq=$(date -d "$latest_editday_raw" --iso-8601 | blom-tqdate --diary --inputformat 2006-01-02 | tr -d "\n")
+latest_writeday_raw=$(jq -n -r --argjson LATEST "$latest" '$LATEST.date_published')
+latest_writeday_gr=$(date -d "$latest_writeday_raw" --iso-8601 | tr -d "\n")
+latest_writeday_tq=$(date -d "$latest_writeday_raw" --iso-8601 | blom-tqdate --diary --inputformat 2006-01-02 | tr -d "\n")
+latest_dir=${latest_url##*/}
+
+m4	-D_TITLE="$latest_title" \
+	-D_ARTICLE_CLASS="$latest_class" \
+	-D_TODAY_TQ="$today_tq" \
+	-D_TODAY_GR="$today_gr" \
+	-D_EDITDAY_TQ="$latest_editday_tq" \
+	-D_EDITDAY_GR="$latest_editday_gr" \
+	-D_WRITEDAY_TQ="$latest_writeday_tq" \
+	-D_WRITEDAY_GR="$latest_writeday_gr" \
+	-D_ARTICLE_CONTENT="$latest_content" \
+	-D_PERMALINK="$latest_url" \
+	-D_MDLINK="$latest_url/content.md" \
+	-D_BASICLINK="$latest_url/content.html" \
+	$template_path/content.m4 $template_path/main_comment.m4 $template_path/page.html \
+	| tee $site_root/index.html \
+	| gzip --best --force > $site_root/index.html.gz
+
+echo "$items" | jq -c -f $template_path/jfroot.jq.json \
+	| jq 'del(.items[]._ratan_blog_class)' \
+	| tee $site_root/feeds/json \
+	| gzip --best --force > $site_root/feeds/json.gz
+
+cat $site_root/feeds/json | blom-feed --atom \
+	| tee $site_root/feeds/atom \
+	| gzip --best --force > $site_root/feeds/atom.gz
+
+cat $site_root/feeds/json | blom-feed --rss \
+	| tee $site_root/feeds/rss \
+	| gzip --best --force > $site_root/feeds/rss.gz
