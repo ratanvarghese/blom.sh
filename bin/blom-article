@@ -6,8 +6,9 @@ tag_list='[]'
 article_class=''
 template_path=''
 article_path=$PWD
+site_root=$(realpath $HOME/blog/public)
 
-while getopts ":t:c:g:T:A:" opt; do
+while getopts ":t:c:g:S:T:A:" opt; do
 	case $opt in
 		t)
 			title=$OPTARG
@@ -19,6 +20,9 @@ while getopts ":t:c:g:T:A:" opt; do
 			tag_list=$(jq -n	--argjson LIST "$tag_list" \
 								--arg TAG "$OPTARG" \
 								'$LIST + [$TAG]')
+			;;
+		S)
+			site_root=$(realpath $OPTARG)
 			;;
 		T)
 			template_path=$(realpath $OPTARG)
@@ -37,10 +41,26 @@ if [ -z "$template_path" ]; then
 	echo "Error: no template path provided. Exiting.."
 	exit 64
 fi
+if [ ! -f "$template_path/jfitem.jq.json" ]; then
+	echo "Error: template path $template_path is missing item template. Exiting.."
+	exit 64
+fi
+if [ ! -f "$template_path/content.m4" ]; then
+	echo "Error: template path $template_path is missing content template. Exiting.."
+	exit 64
+fi
+if [ ! -f "$template_path/comment.m4" ]; then
+	echo "Error: template path $template_path is missing comment template. Exiting.."
+	exit 64
+fi
+if [ ! -f "$template_path/page.html" ]; then
+	echo "Error: template path $template_path is missing page template. Exiting.."
+	exit 64
+fi
 
 editday_raw=$(stat $article_path/content.md -c %z)
 host_url="http://www.ratan.blog"
-relative_url="/${article_path##*/}"
+relative_url="/$(realpath --relative-to="$site_root" $article_path)"
 article_url="$host_url$relative_url"
 today_tq=$(date --iso-8601 | blom-tqdate --diary --inputformat 2006-01-02 | tr -d "\n")
 today_gr=$(date --iso-8601 | tr -d "\n")
@@ -69,9 +89,15 @@ if [ -f "$article_path/item.json" ]; then
 			tag_list=$old_tag_list
 		fi
 	fi
-else
+fi
+if [ -z "$writeday_item" ]; then
 	writeday_item=$editday_item
 fi
+if [ -z "$title" ]; then
+	echo "Error: no title found. Exiting.."
+	exit 64
+fi
+
 
 writeday_tq=$(date -d "$writeday_item" --iso-8601 | blom-tqdate --diary --inputformat 2006-01-02 | tr -d "\n")
 writeday_gr=$(date -d "$writeday_item" --iso-8601 | tr -d "\n")

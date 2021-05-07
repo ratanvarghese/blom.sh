@@ -1,8 +1,8 @@
 #!/bin/bash
 # vim : set filetype=sh
 
-template_path=$PWD
-site_root=$PWD
+template_path=''
+site_root=''
 
 while getopts ":S:T:" opt; do
 	case $opt in
@@ -19,10 +19,20 @@ while getopts ":S:T:" opt; do
 	esac
 done
 
+if [ -z "$template_path" ]; then
+	echo "Error: no template path provided. Exiting.."
+	exit 64
+fi
+
+if [ -z "$site_root" ]; then
+	echo "Error: no site path provided. Exiting.."
+	exit 64
+fi
+
 for dir in $site_root/*; do
 	[ ! -L "$dir" ] || continue
 	[ -e "$dir/item.json" ] || continue
-	blom-article -A "$dir" -T "$template_path"
+	blom-article -A "$dir" -T "$template_path" -S "$site_root"
 done
 
 itemsort='sort_by(.date_published) | reverse'
