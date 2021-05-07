@@ -6,7 +6,7 @@ tag_list='[]'
 article_class=''
 template_path=''
 article_path=$PWD
-site_root=$(realpath $HOME/blog/public)
+site_root=''
 
 while getopts ":t:c:g:S:T:A:" opt; do
 	case $opt in
@@ -36,6 +36,10 @@ while getopts ":t:c:g:S:T:A:" opt; do
 			;;
 	esac
 done
+
+if [ -z "$site_root" ]; then
+	site_root=$(realpath $HOME/blog/public)
+fi
 
 if [ -z "$template_path" ]; then
 	echo "Error: no template path provided. Exiting.."
