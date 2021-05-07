@@ -36,14 +36,17 @@ for dir in $site_root/*; do
 done
 
 itemsort='sort_by(.date_published) | reverse'
-rm $site_root/1* $site_root/2* $site_root/3* $site_root/4* $site_root/5* $site_root/6* $site_root/7* $site_root/8* $site_root/9*
 items=$(cat $site_root/*/item.json | jq -s "$itemsort")
 
 host_url="http:\/\/www.ratan.blog"
 path_list=$(echo "$items" | jq -r '.[].url' | sed "s/$host_url//g" - | tr " " "\n")
 index=$(echo "$items" | jq -r '. | length')
+
+redirect_map="$site_root/REDIRECT.map"
+rm $redirect_map
+touch $redirect_map
 for path in $path_list; do
-	ln -s $site_root$path $site_root/$index
+	echo "/$index $path;" >> $redirect_map
 	((index--))
 done
 
