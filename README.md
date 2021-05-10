@@ -25,6 +25,7 @@ Additionally, several features have been added:
   + the standard packages
   + [gorilla/feeds](https://github.com/gorilla/feeds)
   + [tqtime](https://github.com/ratanvarghese/tqtime)
+  + **NOTE: The Golang portions have not been updated since 2019**
 + [gzip](https://gnu.org/software/gzip)
 + [jq](https://www.stedolan.github.io/jq/)
 + [markdown](https://daringfireball.net/projects/markdown/)
