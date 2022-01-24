@@ -21,11 +21,9 @@ Additionally, several features have been added:
 + a standard \*nix environment
   + [m4](https://www.gnu.org/software/m4/m4.html) is not quite an everyday tool, but is part of POSIX
 + [bash](https://tiswww.case.edu/php/chet/bash/bashtop.html)
-+ [golang](https://golang.org), specifically the following packages:
-  + the standard packages
-  + [gorilla/feeds](https://github.com/gorilla/feeds)
-  + [tqtime](https://github.com/ratanvarghese/tqtime)
-  + **NOTE: The Golang portions have not been updated since 2019**
++ [zig 0.9.0](https://ziglang.org)
++ [mxml](https://www.msweet.org/mxml/)
++ [mon13](https://github.com/ratanvarghese/mon13)
 + [gzip](https://gnu.org/software/gzip)
 + [jq](https://www.stedolan.github.io/jq/)
 + [markdown](https://daringfireball.net/projects/markdown/)
