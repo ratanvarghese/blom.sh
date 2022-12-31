@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Charter, serif;
+  font-size: 1.2em;
+  line-height: 1.2;
+  background: Indigo;
+  background-image: url(/blog-enhancements/attachments/calculated_asymmetry.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+}
+
+.centralcolumn {
+  width: 30em;
+  max-width:96%;
+  margin: 0 auto;
+  background-color:rgba(255,255,255,0.95);
+  padding: 0.2em;
+  z-index: 1;
+}
+
+.navbar {
+  text-align:center;
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+}
+
+.navbar ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  padding: 2.5%;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.date {
+  font-size: 0.7em;
+}
+
+.content {
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+blockquote {
+  padding-left: 0.5em;
+  border-left: solid;
+}
+
+.morph strong {
+  font-family: Escafil, serif;
+  font-weight: normal;
+}
+
+.morph blockquote {
+  font-family: Escafil, serif
+}
+
+hr {
+  border-style:solid;
+}

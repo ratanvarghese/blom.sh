@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Charter";
+  src: url("/fonts/charter_regular-webfont.woff");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: url("/fonts/charter_bold-webfont.woff");
+  font-weight: bold;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: url("/fonts/charter_italic-webfont.woff");
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: url("/fonts/charter_bold_italic-webfont.woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Escafil";
+  src: url("/fonts/escafil.ttf");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url("/fonts/inconsolata_regular.ttf");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url("/fonts/inconsolata_bold.ttf");
+  font-weight: bold;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("/fonts/cooperhewitt.woff");
+  font-display: block;
+}

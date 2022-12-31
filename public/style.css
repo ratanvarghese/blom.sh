@@ -1,0 +1,184 @@
+* {
+margin:0;
+padding:0;
+}
+
+a {
+color:olive;
+padding:0.05em;
+text-decoration:none;
+}
+
+body {
+font-family:Charter,serif;
+font-size:1.2rem;
+}
+
+.central {
+width: 30em;
+max-width:96%;
+margin:0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-weight:bold;
+margin:1em 0 1em 0;
+}
+
+h1 {
+font-size:1.4em;
+margin:0.2em 0 0 0;
+}
+
+h2 {
+font-size:1.2em;
+}
+
+h3 {
+font-size:1.175em;
+}
+
+h4 {
+font-size:1.15em;
+}
+
+h5 {
+font-size:1.125em;
+}
+
+h6 {
+font-size:1.1em;
+}
+
+dl, ul, ol, p, figure, table {
+line-height:1.3em;
+margin:0 0 0.5em 0;
+}
+
+table {
+width:100%;
+border-spacing:0;
+}
+
+th {
+font-weight:normal;
+background-color:#00ff000f;
+padding:0.4em 0 0.4em 0;
+border-bottom:solid thin darkgreen;
+}
+
+td {
+padding:0.25em 0 0.25em 0;
+border-bottom:solid thin darkgreen;
+}
+
+small, sub, sup {
+font-size:0.7em;
+line-height:1em;
+}
+
+kbd {
+font-family:Inconsolata, monospace;
+border:solid thin darkgreen;
+padding:0.1em 0.2em 0.1em 0.2em;
+background-color:#00ff000f;
+}
+
+hr {
+border:solid thin;
+color:darkgreen;
+margin:0 0 0.5em 0;
+}
+
+header {
+background:darkgreen;
+color:white;
+}
+
+
+header a {
+color:white;
+}
+
+header img {
+vertical-align:middle;
+}
+
+header nav {
+vertical-align:middle;
+display:inline-block;
+}
+
+header ul {
+margin:0;
+}
+
+dt {
+font-weight:bold;
+}
+
+li, dd {
+font-size:0.9em;
+margin:0 0 0.5em 2em;
+}
+
+ul li {
+list-style-type:disc;
+}
+
+ol li {
+list-style-type:decimal;
+}
+
+nav li {
+display: inline;
+margin:0 0.5em 0 0;
+line-height:1em;
+}
+
+pre {
+font-family:Inconsolata, monospace;
+overflow-x:scroll;
+-webkit-overflow-scrolling:touch;
+border-top:solid thin darkgreen;
+border-bottom:solid thin darkgreen;
+background-color:#00ff000f;
+margin:0 0 0.5em 0;
+}
+
+samp, code {
+font-family:Inconsolata, monospace;
+}
+
+article img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto 0.5em auto;
+}
+
+mark {
+background-color:lime;
+}
+
+blockquote {
+line-height:1.3em;
+font-size:0.9em;
+background-color:#00ff000f;
+margin:0 0 0.5em 0;
+padding-left:3em;
+}
+
+article figcaption {
+text-align:center;
+font-style:italic;
+}
+
+.morph strong {
+font-family: Escafil, serif;
+font-weight: normal;
+}
+
+.morph blockquote {
+font-family: Escafil, serif;
+}

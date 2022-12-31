@@ -1,3 +1,8 @@
 bin/zig-cache
 bin/zig-out
-old*
+oldbin
+oldpublic
+content.html
+index.html
+*.gz
+REDIRECT.map
