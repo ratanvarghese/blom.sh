@@ -1,4 +1,4 @@
-My name is Ratan Varghese.
+My name is Ratan Abraham Varghese, but you can just call me "Abraham" for short.
 
 ### Me On Other Sites
 + [GitHub](https://github.com/ratanvarghese)
