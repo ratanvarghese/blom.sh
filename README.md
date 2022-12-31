@@ -28,4 +28,8 @@ Additionally, several features have been added:
 + [jq](https://www.stedolan.github.io/jq/)
 + [markdown](https://daringfireball.net/projects/markdown/)
 
-The generated website has further dependencies. Notably `blom` does not actually handle serving the files over HTTP.
+The generated website has further dependencies. Notably `blom` does not actually handle serving the files over HTTP: a seperate server such as nginx is needed. For local development purposes, you can use a simple HTTP server such as the one included in Python:
+
+```
+python -m http.server --directory .
+```
