@@ -5,7 +5,7 @@ define(`_COMMENT_SECTION',`<section class="central comment-info">
 <p>What do <strong>you</strong> think?</p>
 <p>The comment form accepts <a href="https://daringfireball.net/projects/markdown">Markdown</a>, with some limitations.</p>
 <p>Your email, if provided, will not be shared with other readers.</p>
-<p>After you press &ldquo;Submit&rdquo;, you have 15 minutes to edit or delete your comment. Type carefully!</p>
+<p><strong>After you press &ldquo;Submit&rdquo; a cookie is stored on your browser which identifies you to the comment system, and expires in 15 minutes. You can only edit or delete your comment while this cookie is active.</strong></p>
 <p>For more information, see <a href="/adding-comments">this</a>.</p>
 
 <noscript>
