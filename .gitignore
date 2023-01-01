@@ -1,5 +1,10 @@
 bin/zig-cache
 bin/zig-out
+bin/blom-archive
+bin/blom-cp
+bin/blom-feed
+bin/blom-tags
+bin/blom-tqdate
 oldbin
 oldpublic
 content.html

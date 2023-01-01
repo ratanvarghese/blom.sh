@@ -74,7 +74,7 @@ pub fn main() !void {
 
     for (tag_list.items) |tag| {
         const title_tag = title(tag, allocator);
-        try stdout.print("### {s}\n", .{title_tag});
+        try stdout.print("### [{s}](id:{s})\n", .{ title_tag, tag });
         const list = tag_map.get(tag) orelse unreachable;
         for (list) |item, item_i| {
             if (item) {
