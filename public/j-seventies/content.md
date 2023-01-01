@@ -1,3 +1,5 @@
+![Musical note Twemoji](/j-seventies/attachments/thumbnail.svg)
+
 Amanda thumbed through the records on the shelf, waiting for Marcus.
 
 *Beatles, Beatles, Beatles. Where are the Bee Gees?* she thought.

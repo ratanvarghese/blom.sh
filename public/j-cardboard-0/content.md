@@ -1,3 +1,5 @@
+![Parcel Twemoji](/j-cardboard-0/attachments/thumbnail.svg)
+
 It was dark in the museum’s rotunda. Most of the artificial lights were turned off, but some meagre natural light shone through the windows of the ceiling. There were satellites and jetliners, intermittently illuminating the sky. There were also the moon and stars, older than life itself.
 
 At the centre of the museum rotunda was a marble statue with a stoic face, which appeared ghostly under the moonlight. On one side of it, a panel placed by the museum staff read:

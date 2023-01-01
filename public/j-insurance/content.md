@@ -1,3 +1,5 @@
+![Receipt Twemoji](/j-insurance/attachments/thumbnail.svg)
+
 "So let me get this straight," I asked my younger brother, Jason. "You had the form filled out?"
 
 "Yes we filled them out together," Jason responded, reminding me of that little incident.

@@ -1,3 +1,5 @@
+![Flushed face Twemoji](/j-embarassed/attachments/thumbnail.svg)
+
 **It looked like a shell, half buried, but as she dug through the sand around its edges, she found it was something completely different, something she'd never seen before and thought only existed in stories. She had to be imagining - it simply couldn't be a** floppy disk.
 
 Not that Miranda, at the tender age of thirteen, even knew the term "floppy disk". Her first thought was that it might be a 3D-printed sculpture of the "Save" icon on her word processor. But Phoebe, knowledgeable, cultured Phoebe, rolled her eyes and explained.

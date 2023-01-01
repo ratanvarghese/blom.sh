@@ -1,3 +1,5 @@
+![Cooked rice Twemoji](/j-executed/attachments/thumbnail.svg)
+
 "Rice and yogurt," I told the warden.
 
 "You sure? We could get you anything, really. At least anything within the budget. A steak perhaps. A curry from one of the local places. Some grilled pork belly?" the warden responded.

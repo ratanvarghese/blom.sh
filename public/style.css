@@ -182,3 +182,7 @@ font-weight: normal;
 .morph blockquote {
 font-family: Escafil, serif;
 }
+
+.swit img[src*="thumbnail"] {
+height: 100px;
+}

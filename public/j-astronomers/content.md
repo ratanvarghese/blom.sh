@@ -1,3 +1,5 @@
+![Twemoji](/j-astronomers/attachments/thumbnail.svg)
+
 Right after the department head pressed the button, the entire facility seemed to hum with activity. Gears and hydraulics pulled the Observatory open, revealing it's vulnerable center to the night sky.
 
 "The Hadfield telescope," said the department head. "The finest astronomical instrument in the solar system. It took billions in funding to construct, and megawatts to operate."

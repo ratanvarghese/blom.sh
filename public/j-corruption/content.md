@@ -1,3 +1,5 @@
+![Crayon Twemoji](/j-corruption/attachments/thumbnail.svg)
+
 George, age 4, excitedly grabbed the green crayon and slammed it into the paper.
 
 His hand zipped across the page like a dragonfly, changing directions almost every moment.

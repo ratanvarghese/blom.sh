@@ -1,3 +1,5 @@
+![Blossom Twemoji](/j-bloom/attachments/thumbnail.svg)
+
 I stared at the circle-shaped pond in disgust. No, not circle shaped. It was an oval shaped pond.
 
 I know shapes.

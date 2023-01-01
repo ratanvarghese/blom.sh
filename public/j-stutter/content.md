@@ -1,3 +1,5 @@
+![Burger Twemoji](/j-stutter/attachments/thumbnail.svg)
+
 "I'll have - I'll have - have - ha - ha," I stuttered, staring at the menu.
 
 The cashier shifted her head slightly, but her smile full of gleaming teeth never wavered.

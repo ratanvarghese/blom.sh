@@ -1,3 +1,5 @@
+![Smoking Twemoji](/j-smoking/attachments/thumbnail.svg)
+
 ## March 12, 2012
 
 “Hey,” Arjun said. “Guess what I found?”

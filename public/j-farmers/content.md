@@ -1,3 +1,5 @@
+![Ant Twemoji](/j-farmers/attachments/thumbnail.svg)
+
 The ants crawled across the sand, carrying their cargo in their mandibles. Some had leaves, others miniscule cuts of fruit. Some had the corpses of flies and spiders.
 
 But it was the living cargo that Tom was excitedly pointing out to me. "Aphids!" he said. "They are taking the aphids back to their colony!"

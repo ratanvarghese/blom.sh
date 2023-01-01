@@ -1,3 +1,5 @@
+![Clubs Twemoji](/j-mutual-defiance/attachments/thumbnail.svg)
+
 "So how does the scoring work in this game again?" asked Lucy, on my left. "One point each time you play the highest card?"
 
 "Highest of the suit," said James, on my right. "But if you don't correctly predict the points you'll get in a trick, you lose points."
