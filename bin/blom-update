@@ -32,11 +32,11 @@ fi
 for dir in $site_root/*; do
 	[ ! -L "$dir" ] || continue
 	[ -e "$dir/item.json" ] || continue
-	blom-article -A "$dir" -T "$template_path" -S "$site_root"
+	blom-article -A "$dir" -T "$template_path" -S "$site_root" &
 done
+wait
 
-itemsort='sort_by(.date_published) | reverse'
-items=$(cat $site_root/*/item.json | jq -s "$itemsort")
+items=$(jq -s 'sort_by(.date_published) | reverse' $site_root/*/item.json)
 
 host_url="http:\/\/www.ratan.blog"
 path_list=$(echo "$items" | jq -r '.[].url' | sed "s/$host_url//g" - | tr " " "\n")
@@ -111,10 +111,10 @@ echo "$items" | jq -c -f $template_path/jfroot.jq.json \
 	| tee $site_root/feeds/json \
 	| gzip --best --force > $site_root/feeds/json.gz
 
-cat $site_root/feeds/json | blom-feed --atom \
+blom-feed --atom < $site_root/feeds/json \
 	| tee $site_root/feeds/atom \
 	| gzip --best --force > $site_root/feeds/atom.gz
 
-cat $site_root/feeds/json | blom-feed --rss \
+blom-feed --rss < $site_root/feeds/json \
 	| tee $site_root/feeds/rss \
 	| gzip --best --force > $site_root/feeds/rss.gz
