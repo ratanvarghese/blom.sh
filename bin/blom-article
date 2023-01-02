@@ -7,8 +7,9 @@ article_class=''
 template_path=''
 article_path=$PWD
 site_root=''
+process_item=1
 
-while getopts ":t:c:g:S:T:A:" opt; do
+while getopts ":t:c:g:S:T:A:i" opt; do
 	case $opt in
 		t)
 			title=$OPTARG
@@ -30,9 +31,16 @@ while getopts ":t:c:g:S:T:A:" opt; do
 		A)
 			article_path=$(realpath $OPTARG)
 			;;
+		i)
+			process_item=0
+			;;
 		:)
-			echo "Option -$OPTARG requires argument"
+			echo "Option -${OPTARG} requires argument"
 			exit 1
+			;;
+		?)
+			echo "Invalid option -${OPTARG}."
+			exit 2
 			;;
 	esac
 done
@@ -65,7 +73,6 @@ fi
 editday_raw=$(stat $article_path/content.md -c %z)
 host_url="http://www.ratan.blog"
 relative_url="/$(realpath --relative-to="$site_root" $article_path)"
-article_url="$host_url$relative_url"
 today_tq=$(date --iso-8601 | blom-tqdate | tr -d "\n")
 today_gr=$(date --iso-8601 | tr -d "\n")
 editday_item=$(date -d "$editday_raw" --rfc-3339=seconds | tr -d "\n" | tr " " T)
@@ -106,8 +113,9 @@ fi
 writeday_tq=$(date -d "$writeday_item" --iso-8601 | blom-tqdate | tr -d "\n")
 writeday_gr=$(date -d "$writeday_item" --iso-8601 | tr -d "\n")
 
-attach_list='[]'
-if [ -d $article_path/attachments ]; then
+if (( process_item != 0 )); then
+	attach_list='[]'
+	article_url="$host_url$relative_url"
 	for attach in $article_path/attachments/*.*; do
 		[ -e "$attach" ] || continue
 		mime=$(file --mime-type -b $attach)
@@ -117,17 +125,17 @@ if [ -d $article_path/attachments ]; then
 							--arg MIME "$mime" \
 							'$LIST + [{url: $URL, mime_type: $MIME}]')
 	done
-fi
 
-jq	-n -c -f $template_path/jfitem.jq.json \
-	--arg URL $article_url \
-	--arg TITLE "$title" \
-	--arg EDITDAY "$editday_item" \
-	--arg WRITEDAY "$writeday_item" \
-	--arg CONTENT "$content" \
-	--arg ARTICLECLASS "$article_class" \
-	--argjson ATTACHLIST "$attach_list" \
-	--argjson TAGLIST "$tag_list" > $article_path/item.json
+	jq	-n -c -f $template_path/jfitem.jq.json \
+		--arg URL $article_url \
+		--arg TITLE "$title" \
+		--arg EDITDAY "$editday_item" \
+		--arg WRITEDAY "$writeday_item" \
+		--arg CONTENT "$content" \
+		--arg ARTICLECLASS "$article_class" \
+		--argjson ATTACHLIST "$attach_list" \
+		--argjson TAGLIST "$tag_list" > $article_path/item.json
+fi
 
 m4	-D_TITLE="$title" \
 	-D_ARTICLE_CLASS="$article_class" \
