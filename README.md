@@ -6,7 +6,6 @@ This version has most of the features of the [old implementation](https://github
 + JSON Feed pagination
 + Reading from `content.html`: all content must be provided as `content.md` (note that HTML can be trivially embedded in Markdown)
 + Golang HTML templates: these have been replaced with m4 based templates which are included in the repository.
-+ Parallelism: this was never a performance-sensitive task
 
 Additionally, several features have been added:
 + Automatic GZIP compression
