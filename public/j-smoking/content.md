@@ -119,8 +119,8 @@ Instead, I cried.
 + nice descriptions, humor
 + add a little more of tech obsession, a little more addiction
 + instead of dates, tell passage of time another way
- + "it was three years later"
- + or tell with iphone version numbers
+  + "it was three years later"
+  + or tell with iphone version numbers
 + emphasize what's going on
 + narrator addicted - please make it clearer
 + trilogy of symbol: DS, phone, phone (like pens and marker)

@@ -79,7 +79,7 @@ editday_item=$(date -d "$editday_raw" --rfc-3339=seconds | tr -d "\n" | tr " " T
 editday_tq=$(date -d "$editday_raw" --iso-8601 | blom-tqdate | tr -d "\n")
 editday_gr=$(date -d "$editday_raw" --iso-8601 | tr -d "\n")
 
-h_regex='s|^(#*) (.+)|\1 [\2](id:\2)|g'
+h_regex='s|^(#+) (.+)|\1 [\2](id:\2)|g'
 content=$(sed -E "$h_regex" $article_path/content.md | markdown | tee $article_path/content.html)
 gzip -k --best --force $article_path/content.md
 gzip -k --best --force $article_path/content.html
