@@ -167,6 +167,7 @@ font-size:0.9em;
 background-color:#00ff000f;
 margin:0 0 0.5em 0;
 padding-left:3em;
+border-left:solid thick darkgreen;
 }
 
 article figcaption {
@@ -185,4 +186,57 @@ font-family: Escafil, serif;
 
 .swit img[src*="thumbnail"] {
 height: 100px;
+}
+
+article.creative {
+width: auto;
+display: flex;
+flex-direction: row;
+flex-wrap:  wrap;
+}
+
+div.creative-column {
+flex-grow: 1;
+flex-basis: 200px;
+padding: 10px;
+}
+
+div.creative-box-grid {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.creative-box {
+width: 192px;
+height: 192px;
+margin: 2px;
+border-width: thin;
+border-color: darkgreen;
+border-style: solid;
+border-radius: 10%;
+}
+
+.creative-prose {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: space-around;
+background-color:#00ff000f
+}
+
+.creative-prose img {
+height: 75%;
+margin: 0;
+}
+
+.creative-visual {
+overflow: hidden;
+}
+
+.creative-visual img {
+height: 100%;
+width: 100%;
+margin: 0%;
 }

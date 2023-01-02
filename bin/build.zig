@@ -37,4 +37,10 @@ pub fn build(b: *std.build.Builder) void {
     feed_exe.linkSystemLibraryName("mxml");
     feed_exe.linkSystemLibraryName("pthread");
     feed_exe.install();
+
+    const prose_exe = b.addExecutable("blom-prose", "blom-prose.zig");
+    prose_exe.setTarget(target);
+    prose_exe.setBuildMode(mode);
+    prose_exe.linkSystemLibraryName("pthread");
+    prose_exe.install();
 }

@@ -54,6 +54,8 @@ metaitems=$(echo "$items" | jq 'map({url,title,tags,date_published})')
 
 tags_content=$(echo "$metaitems" | blom-tags | sed "s/($host_url/(/g" - |  markdown)
 archive_content=$(echo "$metaitems" | blom-archive | sed "s/($host_url/(/g" - | markdown)
+prose_boxes=$(echo "$metaitems" | sed "s/$host_url//g" | blom-prose)
+
 today_tq=$(date --iso-8601 | blom-tqdate | tr -d "\n")
 today_gr=$(date --iso-8601 | tr -d "\n")
 
@@ -76,6 +78,16 @@ m4	-D_TITLE="Archive" \
 	$template_path/page.html \
 	| tee $site_root/archive/index.html \
 	| gzip --best --force > $site_root/archive/index.html.gz
+
+m4	-D_TITLE="Creative" \
+	-D_TODAY_TQ="$today_tq" \
+	-D_TODAY_GR="$today_gr" \
+	-D_ARTICLE_CLASS="creative" \
+	-D_PROSE_BOXES="$prose_boxes" \
+	-D_COMMENT_SECTION="" \
+	$template_path/creative.m4 $template_path/page.html \
+	| tee $site_root/creative/index.html \
+	| gzip --best --force > $site_root/creative/index.html.gz
 
 latest=$(echo "$items" | jq -r '.[0]')
 latest_title=$(jq -n -r --argjson LATEST "$latest" '$LATEST.title')
