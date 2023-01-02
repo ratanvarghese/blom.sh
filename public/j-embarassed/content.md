@@ -10,7 +10,7 @@ Not that Miranda, at the tender age of thirteen, even knew the term "floppy disk
 
 "Back when phones and the internet were dogshit, you could use these devices to move stuff from one computer to another," Phoebe said. But her dry voice turned more fluffy and gentle as she continued. "I only know this 'cause my mom told me. It's kind of useless these days if I'm being honest. We aren't archaeologists, right?"
 
-Phoebe smiled at Miranda and noticed Miranda's slow exhale, her reddened cheeks, her upper teeth upon her lower lip. Was ignorance of floppy disks Miranda's only source of embarassment?
+Phoebe smiled at Miranda and noticed Miranda's slow exhale, her reddened cheeks, her upper teeth upon her lower lip. Was ignorance of floppy disks Miranda's only source of embarrassment?
 
 "What if we were archaeologists?" asked Miranda. "What treasures would we discover together?"
 
@@ -26,4 +26,4 @@ The decades-old image was of Phoebe's mom, grinning in the nude with three male 
 
 ### Notes
 
-The bolded sentences are from the "Complete the Story" writing prompt book. I tried combining those sentences with Joy of Writing's prompt, "Embarassed".
+The bolded sentences are from the "Complete the Story" writing prompt book. I tried combining those sentences with Joy of Writing's prompt, "Embarrassed".
