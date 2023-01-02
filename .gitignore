@@ -5,6 +5,7 @@ bin/blom-cp
 bin/blom-feed
 bin/blom-tags
 bin/blom-tqdate
+bin/blom-prose
 oldbin
 oldpublic
 content.html
