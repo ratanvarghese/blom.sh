@@ -42,11 +42,11 @@ Mom is busy a lot.
 
 *Gruel*. I shuddered. Every other day, all Mom and I eat is gruel.
 
-## Notes
+### Notes
 
 This was written in 15 minutes during a Joy of Writing meetup.
 
-## Feedback from The Joy of Writing group
+### Feedback from The Joy of Writing group
 
 + No mention of father
 + Child or mentally challenged?

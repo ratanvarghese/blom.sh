@@ -1,6 +1,6 @@
 Pixar's *Lightyear* was fine. I'd even call it good - but not great. I had a couple thoughts about this movie, although frankly it was straightforward so there probably isn't much to say. There will be spoilers in this article.
 
-## Isn't it a Bit Late?
+### Isn't it a Bit Late?
 
 ![Buzz Lightyear characters from the TV Show](/lightyear/attachments/tv_show.webp)
 
@@ -14,11 +14,11 @@ The point is, Hollywood is milking old franchises as much as they can. And by go
 
 Sorry, this is an article about a movie, right?
 
-## Advertisements and Trailers
+### Advertisements and Trailers
 
 The trailer for [*Marcel the Shell with Shoes On*](https://en.wikipedia.org/wiki/Marcel_the_Shell_with_Shoes_On_(2021_film\)) was cute. After seeing *Everything, Everywhere, All at Once* I am a bit more interested in A24's material.
 
-## The Turnip People
+### The Turnip People
 
 ![The "turnip"](/lightyear/attachments/turnip.webp)
 
@@ -36,7 +36,7 @@ Why did the writers decide there needed to be so many test flights of 4 years ea
 
 I mentioned Buzz Lightyear as being stubborn and arrogant, but he is also very sincere - not an annoying wisecrack like some of the male leads of the *Star Wars* sequels. Even when he goes rogue, Buzz still acts like a member of an organization who broke a rule or two, rather than a lifelong criminal not bound by any standards. He even mentions the authority of his rank in some scenes.
 
-## Collect the Capacitors
+### Collect the Capacitors
 
 ![Buzz, Izzy and friends](/lightyear/attachments/crew.webp)
 
@@ -60,7 +60,7 @@ There is also a scene where everybody eats sandwiches with the toppings on the o
 
 The more concerning thing about the sandwiches is the expiry date. If the ~~Starfleet~~ Star Command colony has been trapped for a week, are those sandwiches safe to eat?
 
-## Zurg
+### Zurg
 
 ![Zurg](/lightyear/attachments/zurg.jpg)
 
@@ -78,7 +78,7 @@ According to Izzy Hawthorne, Zurg appeared only a week before Buzz finished his 
 
 Another nice scene during the finale was Izzy Hawthorne getting over her fear of space - this was mentioned earlier but could have used a bit more build up.
 
-## Conclusion
+### Conclusion
 
 *Lightyear* felt short, simple and straightforward. The visuals were good, especially the spaceships. Buzz and Izzy were alright characters with alright character arcs. *Lightyear* might technically be the simplest time travel story ever - mainly because so little time travel actually occurs.
 

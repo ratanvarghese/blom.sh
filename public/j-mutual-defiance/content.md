@@ -22,6 +22,6 @@ I slapped my forehead and said, "Seriously?"
 
 I won the hand and lost the trick. I won the battle and lost the war.
 
-## Notes
+### Notes
 
 This was written in 15 minutes during a Joy of Writing meetup.

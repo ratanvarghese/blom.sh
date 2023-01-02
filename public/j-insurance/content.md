@@ -36,11 +36,11 @@ I couldn't tell him the truth. I couldn't tell him because it would put him, and
 
 "But I just sit in my apartment and order in food from Uber," he said. "Why would they be interested in little old me?"
 
-## Notes
+### Notes
 
 This was written in 15 minutes during a Joy of Writing meetup.
 
-## Feedback from the Joy of Writing group
+### Feedback from the Joy of Writing group
 
 + don't use adverbs too much: your setting and language and characterization should tell the story.
 + "glumly"

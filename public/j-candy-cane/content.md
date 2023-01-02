@@ -28,6 +28,6 @@ He handed me the card and jogged away. I stared at the card, first in desperatio
 
 > NICOLAS
 
-## Notes
+### Notes
 
 The bolded sentences are from the "Complete the Story" writing prompt book. I tried combining those sentences with Joy of Writing's prompt, "Candy Cane".

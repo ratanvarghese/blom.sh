@@ -10,11 +10,11 @@ But it was the living cargo that Tom was excitedly pointing out to me. "Aphids!"
 
 In the chamber Tom was pointing to was a mess of aphids. Ants crawled in and out, quickly and orderly as if they were mechanical.
 
-## Notes
+### Notes
 
 This was written in 15 minutes during a Joy of Writing meetup.
 
-## Feedback from The Joy of Writing group
+### Feedback from The Joy of Writing group
 
 + planet of insects
 + chives for aphids

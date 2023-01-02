@@ -30,7 +30,7 @@ Vibrations shifted through the museum rotunda, at the precise frequency needed t
 
 “It’s actually the 21st century.”
 
-## Feedback from The Joy of Writing group
+### Feedback from The Joy of Writing group
 
 + Is the Setup necessary? After the beginning? While talking?
   + Open on line of the gift shop

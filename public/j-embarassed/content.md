@@ -24,6 +24,6 @@ That said, it was a bit of a disappointment that they spent their evening trying
 
 The decades-old image was of Phoebe's mom, grinning in the nude with three male companions.
 
-## Notes
+### Notes
 
 The bolded sentences are from the "Complete the Story" writing prompt book. I tried combining those sentences with Joy of Writing's prompt, "Embarassed".

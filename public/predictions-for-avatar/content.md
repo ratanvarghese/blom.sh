@@ -1,6 +1,6 @@
 I recently saw [*Avatar: The Way of Water*](https://www.imdb.com/title/tt1630029/) (not to be confused with [*Avatar the Last Airbender, Book 1: Water*](https://www.imdb.com/title/tt0417299/)). After over a decade of waiting, there is finally a sequel to that extremely successful movie that everybody jokes about forgetting. There will be spoilers for *The Way of Water* in this article, so don’t scroll too fast. Also, if you are enthusiastic about James Cameron's *Avatar*, then be warned that this will be a somewhat cynical article.
 
-## Predictions
+### Predictions
 
 ![Jake Sully](/predictions-for-avatar/attachments/jake_sully.webp)
 
@@ -17,7 +17,7 @@ In short, my predictions are:
 
 To be clear, these are *predictions*. These are not an attempt to form the coolest or most original *Avatar* fanfiction. In fact, of all the predictions that could possibly be made about the *Avatar* franchise, these are probably the most boring and conservative.
 
-## Prediction 1: Biomes
+### Prediction 1: Biomes
 
 ![Na'vi holding a Tulkun](/predictions-for-avatar/attachments/tulkun.webp)
 
@@ -33,7 +33,7 @@ There is a flaw in this prediction: doesn’t [James Cameron really like the oce
 
 In short: __every upcoming *Avatar* movie, except the series finale, will explore a new biome with new wildlife.__
 
-## Prediction 2: Tribes
+### Prediction 2: Tribes
 
 ![Leaders of the island Na'vi tribe](/predictions-for-avatar/attachments/tribe_leaders.webp)
 
@@ -51,7 +51,7 @@ The anatomical differences between Na’vi tribes also seems a bit... much. Have
 
 In short: __every upcoming *Avatar* movie, except the series finale, will introduce a new Na’vi tribe with new steeds, a new style of gathering food, and a new tribal chief.__ The other differences between Na’vi tribes are less likely to reappear.
 
-## Prediction 3: Extraction
+### Prediction 3: Extraction
 
 ![Human-built "SeaDragon" ship](/predictions-for-avatar/attachments/seadragon.webp)
 
@@ -65,7 +65,7 @@ The one group of Na'vi intent on stopping the humans in every biome is the Sully
 
 In short: __every upcoming *Avatar* movie, except for the series finale, will introduce a new precious resource, to be looted by humans using new machinery.__
 
-## Prediction 4: Terraformation
+### Prediction 4: Terraformation
 
 ![Human spaceship landing](/predictions-for-avatar/attachments/landing.webp)
 
@@ -81,7 +81,7 @@ This terraformation would be a truly global theat to the Na'vi, unlike the plots
 
 In short: __in the *Avatar* series finale, humans will attempt to deliberately destroy every biome of Pandora in order to terraform the planet.__
 
-## Conclusions
+### Conclusions
 
 There is a single guiding principle behind all these specific predictions: *Avatar* will continue to be a mass-market blockbuster franchise with [complex worldbuilding](https://james-camerons-avatar.fandom.com/wiki/James_Cameron%27s_Avatar:_An_Activist_Survival_Guide), environmentalist themes and simple plots. Since I believe the principle, I am confident in the previous four predictions but cannot imagine how the series will truly end. Is there a satisfying ending that can really meet those requirements? [Will the ending be bungled so severely that audiences and critics won't stand for it](http://www.hellointernet.fm/podcast/2019/12/25/star-wars-the-rise-of-skywalker-hello-internet-christmas-special)?
 

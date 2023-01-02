@@ -33,11 +33,11 @@ But he didn't care anymore.
 
 ___
 
-## Notes
+### Notes
 
 This was written in 15 minutes during a Joy of Writing meetup.
 
-## Feedback from the Joy of Writing group
+### Feedback from the Joy of Writing group
 
 + Read *Transformer* by rick lane
 + expand on how different utensils feel

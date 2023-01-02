@@ -18,6 +18,6 @@ As the night drew on, my eyes grew weary and my mind became infected by temptati
 
 But tomorrow was the day of my last meal. I would only feel executed.
 
-## Notes
+### Notes
 
 This was written in 15 minutes during a Joy of Writing meetup.

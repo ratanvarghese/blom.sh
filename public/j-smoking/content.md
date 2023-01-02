@@ -1,6 +1,6 @@
 ![Smoking Twemoji](/j-smoking/attachments/thumbnail.svg)
 
-## March 12, 2012
+### March 12, 2012
 
 “Hey,” Arjun said. “Guess what I found?”
 
@@ -25,7 +25,7 @@ He was holding two cigarettes.
 
 I expected Arjun to mock me further. But instead he stared at the table briefly and returned his hand to his pocket.
 
-## March 12, 2016
+### March 12, 2016
 
 "It's been a while, hasn't it?" said Arjun, the Chemical Engineering student.
 
@@ -73,7 +73,7 @@ I walked away from the trees, and campus buildings and Arjun. I climbed into the
 
 I returned to my game of *Threes*, and hoped the local burger place would still be open when I got back.
 
-## March 12, 2019
+### March 12, 2019
 
 I sat in the Grand River Transit bus, and prepared to start yet another game of *Threes*. But I noticed a familiar face in a nearby seat.
 
@@ -114,7 +114,7 @@ I opened YouTube and planned to spend the night the same way I did most other ni
 
 Instead, I cried.
 
-## Feedback from The Joy of Writing group
+### Feedback from The Joy of Writing group
 
 + nice descriptions, humor
 + add a little more of tech obsession, a little more addiction

@@ -40,11 +40,11 @@ My face twisted in horror.
 
 I was allergic to fish.
 
-## Notes
+### Notes
 
 This was written in 15 minutes during a Joy of Writing meetup.
 
-## Feedback from The Joy of Writing group
+### Feedback from The Joy of Writing group
 
 + no need for repeatedly
 + no need for adverb

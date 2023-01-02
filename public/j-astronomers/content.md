@@ -32,6 +32,6 @@ Taylor looked upon the screen behind the department head and gasped. She wasn't 
 
 "That's right Taylor," the so-called 'department head' said. "The Martian Intelligence Service is the true operator of this facility, and you are here to clean up any evidence of our activities."
 
-## Notes
+### Notes
 
 This was written in 15 minutes during a Joy of Writing meetup.
