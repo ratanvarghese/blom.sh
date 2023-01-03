@@ -20,6 +20,11 @@ max-width:96%;
 margin:0 auto;
 }
 
+header section.central {
+display: flex;
+align-items: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
 font-weight:bold;
 margin:1em 0 1em 0;
@@ -73,7 +78,7 @@ border-bottom:solid thin darkgreen;
 }
 
 small, sub, sup {
-font-size:0.7em;
+font-size:0.65em;
 line-height:1em;
 }
 
@@ -132,7 +137,7 @@ list-style-type:decimal;
 
 nav li {
 display: inline;
-margin:0 0.5em 0 0;
+margin:0 0.25em 0 0;
 line-height:1em;
 }
 
