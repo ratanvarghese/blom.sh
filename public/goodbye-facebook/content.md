@@ -32,7 +32,7 @@ The role Facebook Messenger played in my life is now filled by email, SMS, and 8
 
 Here's what I had to say (on Facebook) over three years ago about the News Feed:
 
-![News Feed Settings](/goodbye-facebook/attachments/settings.jpg)
+![News Feed Settings](/goodbye-facebook/attachments/settings.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 > This Friendship Day, let Facebook decide which of your friends is most important using its cold algorithmic analysis!
 

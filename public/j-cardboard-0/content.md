@@ -1,4 +1,4 @@
-![Parcel Twemoji](/j-cardboard-0/attachments/thumbnail.svg)
+![Parcel Twemoji](/j-cardboard-0/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 It was dark in the museum’s rotunda. Most of the artificial lights were turned off, but some meagre natural light shone through the windows of the ceiling. There were satellites and jetliners, intermittently illuminating the sky. There were also the moon and stars, older than life itself.
 

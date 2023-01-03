@@ -2,48 +2,48 @@ I visited Ottawa recently to stay with my aunts and their families, and also to 
 
  - The crowds were pretty thick by Ottawa standards...
 
-![Crowd at a Park & Ride](/canada-150/attachments/crowd-stop.jpg)
+![Crowd at a Park & Ride](/canada-150/attachments/crowd-stop.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
-![Crowd in a bus](/canada-150/attachments/crowd-bus.jpg)
+![Crowd in a bus](/canada-150/attachments/crowd-bus.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
  - There were stories of immigrants posted downtown.
 
-![Immigrant Stories](/canada-150/attachments/immigrant-stories.jpg)
+![Immigrant Stories](/canada-150/attachments/immigrant-stories.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
  - A speech by the Prince of Wales was going on while we were walking downtown.
  - There were lots of trained stilt walkers.
 
-![Stilt walker in a geometric costume](/canada-150/attachments/stilt-geometric.jpg)
+![Stilt walker in a geometric costume](/canada-150/attachments/stilt-geometric.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
-![Stilt walker in a bird rider costume](/canada-150/attachments/stilt-bird.jpg)
+![Stilt walker in a bird rider costume](/canada-150/attachments/stilt-bird.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
-![Another stilt walker in a bird rider costume](/canada-150/attachments/stilt-dark-bird.jpg)
+![Another stilt walker in a bird rider costume](/canada-150/attachments/stilt-dark-bird.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
  - On Parliament Hill, it was burning hot throughout the afternoon.
  - I stood on the stone fence of the Parliament... until the guards told people to get down.
 
-![Standing on fence of Parliament](/canada-150/attachments/stand-on-fence.jpg)
+![Standing on fence of Parliament](/canada-150/attachments/stand-on-fence.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
  - The view was ok while it lasted.
 
-![View from the fence](/canada-150/attachments/fence-view.jpg)
+![View from the fence](/canada-150/attachments/fence-view.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
  - Many presenters, even the ones that weren't explicitly anti-colonial, made it a point to mention that Ottawa was built on Algonquin land.
  - SNOW BIRDS: apparently Serena Ryder tours with these jets all the time :D
 
-![Snow Birds](/canada-150/attachments/snow-birds.jpg)
+![Snow Birds](/canada-150/attachments/snow-birds.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
  - Can you identify this flying object?
 
-![Probably a balloon](/canada-150/attachments/ufo.jpg)
+![Probably a balloon](/canada-150/attachments/ufo.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
  - The rain came fast, but most were prepared.
 
-![Evening rain](/canada-150/attachments/rain.jpg)
+![Evening rain](/canada-150/attachments/rain.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
  - There were some *charming* details you'd miss if you saw this on TV.
 
-![Teleprompter](/canada-150/attachments/teleprompt.jpg)
+![Teleprompter](/canada-150/attachments/teleprompt.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
  - The evening events were delayed for a long time, everyone got drenched. The organizers seeded false hope by starting an announcement every few minutes ... just to tell everyone that events were delayed "due to weather".
  - A group of ravers on the side of the stage started singing the national anthem a few times while the organizers failed to deliver. It was really touching.

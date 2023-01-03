@@ -1,4 +1,4 @@
-![Flushed face Twemoji](/j-embarassed/attachments/thumbnail.svg)
+![Flushed face Twemoji](/j-embarassed/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 **It looked like a shell, half buried, but as she dug through the sand around its edges, she found it was something completely different, something she'd never seen before and thought only existed in stories. She had to be imagining - it simply couldn't be a** floppy disk.
 

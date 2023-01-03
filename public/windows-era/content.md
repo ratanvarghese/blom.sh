@@ -1,4 +1,4 @@
-![Windows logo](/windows-era/attachments/windows.svg)
+![Windows logo](/windows-era/attachments/windows.svg) [Image credit: Microsoft](class:credit)
 
 I used Windows uncomfortably often during the last year, much more than in the prior ten. It turns out, a lot of my expectations were obsolete. Windows has changed in many tiny ways over the past decade, but still finds ways to frustrate and confound.
 
@@ -20,7 +20,7 @@ WSL doesn't just enable "GNU/Linux" applications to run on Windows. It also allo
 
 ### Changing the Windows PATH
 
-![Windows interface for changing PATH](/windows-era/attachments/path.jpg)
+![Windows interface for changing PATH](/windows-era/attachments/path.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 The interface for changing the Windows PATH is actually really nifty. I wish more Unix-based systems had a similar window. However the obvious problem is that there isn't just one PATH, is there? Each shell and application might be making alterations its PATH while it is running, even on Windows.
 
@@ -28,7 +28,7 @@ Also, the only people who even care about the PATH are command-line users, who s
 
 ### Shells, Consoles, Terminals
 
-![Windows Terminal with 13 shells](/windows-era/attachments/shell.jpg)
+![Windows Terminal with 13 shells](/windows-era/attachments/shell.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 If you use command-lines often, you likely understand that a modern command-line involves a number of applications working together. Details such as font size and color combinations are controlled seperately from details such as how the computer responds to `echo Hello`.
 
@@ -82,7 +82,7 @@ Conventional knowledge might lead you to install [PuTTY](https://www.chiark.gree
 
 Or... you could just type `ssh nethack@alt.org` into the default Command Prompt just like on Linux.
 
-![SSH in Command Prompt](/windows-era/attachments/ssh.jpg)
+![SSH in Command Prompt](/windows-era/attachments/ssh.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 Yes, that's right. You can even copy your `.ssh` folder directly from Linux and plop it in your Windows user folder, because [since about 2018, Microsoft has been bundling OpenSSH with Windows 10](https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/).
 
@@ -128,7 +128,7 @@ There are many other PowerToys that I never ended up using.
 
 ### Leaving Microsoft Windows
 
-![Screenshot of Manjaro with i3](/windows-era/attachments/i3_screenshot.jpg)
+![Screenshot of Manjaro with i3](/windows-era/attachments/i3_screenshot.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 It was the lack of a tiling window manager that really tempted me away from Windows. Moving around applications individually is a nuisance. Switching back to Linux during the middle of a school term seemed like a bad idea, so I bided my time.
 

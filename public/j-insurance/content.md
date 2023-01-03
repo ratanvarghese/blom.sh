@@ -1,4 +1,4 @@
-![Receipt Twemoji](/j-insurance/attachments/thumbnail.svg)
+![Receipt Twemoji](/j-insurance/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 "So let me get this straight," I asked my younger brother, Jason. "You had the form filled out?"
 

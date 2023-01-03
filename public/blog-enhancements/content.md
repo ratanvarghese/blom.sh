@@ -67,14 +67,14 @@ the CSS reset, I ended up just using the budget version:
 After eliminating the Lufthansa-esque color scheme, the next casualty
 was the logo.
 
-![old logo](/blog-enhancements/attachments/calculated_asymmetry.svg)
+![old logo](/blog-enhancements/attachments/calculated_asymmetry.svg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 What was the point of that logo? Was it totally arbitrary? Well, I
 don't actually remember. All I know is, the filename was
 `calculated_asymmetry.svg`, but the logo was symmetrical using an axis
 45&deg; from the horizontal. What a scandal!
 
-![new logo](/blog-enhancements/attachments/calculated_asymmetry_new.svg)
+![new logo](/blog-enhancements/attachments/calculated_asymmetry_new.svg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 The meaning of the new logo is that right-angled trapezoids are
 underrated.

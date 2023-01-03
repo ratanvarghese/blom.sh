@@ -1,4 +1,4 @@
-![Smoking Twemoji](/j-smoking/attachments/thumbnail.svg)
+![Smoking Twemoji](/j-smoking/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 ### March 12, 2012
 

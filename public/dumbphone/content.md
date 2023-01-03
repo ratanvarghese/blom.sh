@@ -16,7 +16,7 @@ It was a dumbphone.
 
 ### Into the BLU
 
-![BLU Z3 in the dark](/dumbphone/attachments/dark_min.jpg)
+![BLU Z3 in the dark](/dumbphone/attachments/dark_min.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 The [BLU Z3](https://www.amazon.ca/gp/product/B01AV10PJI/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) was not an impulse buy. I was very careful about choosing the right feature set for about a month of use.
 
@@ -34,25 +34,25 @@ I had to buy an SD card separately. It's been many years since I've used one. I 
 
 ### Starting Out
 
-![BLU Z3 box](/dumbphone/attachments/box_min.jpg)
+![BLU Z3 box](/dumbphone/attachments/box_min.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 Included in the box was a microUSB to USB cable and a USB charger. My headset also used microUSB, so I only needed to carry one cable around with me for trips.
 
 There was a removable battery. Pretty useful if you use the BLU Z3 for a long enough time to degrade the battery, and do not wish to spend $10 on the non-battery parts of a new BLU Z3. Of course, in this day and age, if you're using the BLU Z3 for that long then I pity you deeply.
 
-![Disassembled Z3](/dumbphone/attachments/disassembled_min.jpg)
+![Disassembled Z3](/dumbphone/attachments/disassembled_min.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 The plastic back of the phone could be removed easily, providing access to the SIM card and SD card slots. I had a nano SIM and the slots were normal SIM sized, but the SIM enclosure was actually tight enough to keep my card securely in place. I did not use the second SIM slot.
 
 Now I just had to turn the phone on. Which one of these is the power button? I was actually confused to the point of Googling the answer. Luckily, you need only click the image below to find out.
 
-[![Z3 Buttons](/dumbphone/attachments/off_min.jpg)](/dumbphone/attachments/off_circle_min.jpg)
+[![Z3 Buttons](/dumbphone/attachments/off_min.jpg)](/dumbphone/attachments/off_circle_min.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 After turning the phone on, I was greeted to a mess of Portugese (?) text. Luckily the Settings menu had the sort of gear and wrench iconography every other device has and I was able to convert to English in short order.
 
 ### Bluetooth & Audio
 
-![Organizer](/dumbphone/attachments/organizer_min.jpg")
+![Organizer](/dumbphone/attachments/organizer_min.jpg") [Image credit: Ratan Abraham Varghese](class:credit)
 
 An app separate from Settings called the "Organizer" is in charge of connecting to Bluetooth. The pairing usually succeeds. Only very late into using this phone did really frustrating connection failures arise. My headset has a wired mode, and the Z3 has a headphone jack, so it was not a big deal. Also, when Bluetooth is enabled, every button press is accompanied by a loud BLOOP from the speaker. I think there is a way to turn this off but I really do not know.
 
@@ -60,7 +60,7 @@ In my days with the Nexus 5X, I didn't buy any music files. Instead I got all my
 
 I could play podcasts though. As I was using a [Chromebook](https://www.amazon.ca/gp/product/B00ZS4HK0Q/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1), I would need a web-based podcast app to track my subscriptions. I used [ShortOrange](https://shortorange.com/), which turned out to be one of the slowest, most annoying computer-related things I have ever used. With ShortOrange I would download podcast files onto the Z3 one by one. Much more tedious than using a smartphone's podcast app.
 
-![Audio player](/dumbphone/attachments/music_min.jpg")
+![Audio player](/dumbphone/attachments/music_min.jpg") [Image credit: Ratan Abraham Varghese](class:credit)
 
 The Z3 audio player was more limited than I expected. While playing a file, the only visible metadata are the filename and the audio length. This can be a bit annoying when the people publishing the files are [notorious for inconsistent naming schemes](http://www.hellointernet.fm/).
 
@@ -78,11 +78,11 @@ Speaking of fragments, for some reason when receiving a long text, it is provide
 
 The games menu is buried inside the aforementioned Organizer. Makes sense, don't we all think of filing cabinets when gaming? There are two games available: Snake and Sokoban.
 
-![Snake](/dumbphone/attachments/snake_min.jpg)
+![Snake](/dumbphone/attachments/snake_min.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 Snake is a classic. A very boring classic. Since when did snakes eat immobile balls of pixels? Maybe the problem is that I'm stuck in easy mode and cannot escape. Snake games can be paused, but if you leave the Snake app entirely to do something else the game will not be saved. I hope I don't have to play for hours on end to unlock hard mode.
 
-![Sokoban](/dumbphone/attachments/sokoban_min.jpg)
+![Sokoban](/dumbphone/attachments/sokoban_min.jpg) [Image credit: Ratan Abraham Varghese](class:credit)
 
 Sokoban is a bit interesting. I'm pretty bad at it. The only reason I can survive the [NetHack version](https://nethackwiki.com/wiki/Sokoban) is because I memorized all the solutions. Sokoban usually saves your progress, thank goodness for that.
 

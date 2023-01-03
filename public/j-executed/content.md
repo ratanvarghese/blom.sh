@@ -1,4 +1,4 @@
-![Cooked rice Twemoji](/j-executed/attachments/thumbnail.svg)
+![Cooked rice Twemoji](/j-executed/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 "Rice and yogurt," I told the warden.
 

@@ -1,4 +1,4 @@
-![Burger Twemoji](/j-stutter/attachments/thumbnail.svg)
+![Burger Twemoji](/j-stutter/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 "I'll have - I'll have - have - ha - ha," I stuttered, staring at the menu.
 

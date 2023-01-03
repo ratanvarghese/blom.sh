@@ -1,4 +1,4 @@
-![Twemoji](/j-astronomers/attachments/thumbnail.svg)
+![Twemoji](/j-astronomers/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 Right after the department head pressed the button, the entire facility seemed to hum with activity. Gears and hydraulics pulled the Observatory open, revealing it's vulnerable center to the night sky.
 

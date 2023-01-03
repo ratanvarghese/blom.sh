@@ -4,7 +4,7 @@ I watched *Avengers: Endgame* three days back, despite having missed out on most
 
 ### Pregame
 
-![MCU character timeline](/endgame/attachments/pregame-small.png)
+![MCU character timeline](/endgame/attachments/pregame-small.png) [Image credit: [Cheesenaut on Reddit](https://www.reddit.com/r/marvelstudios/comments/8hwil7/mcu_character_timeline/), Walt Disney Company](class:credit)
 
 The timeline above, which I found [here](https://www.reddit.com/r/marvelstudios/comments/8hwil7/mcu_character_timeline/), shows *almost* all the movies that build up to *Endgame*. *Captian Marvel*, released after *Infinity War*, is also pretty important. I was not a Marvel completionist, but I still saw a fair number of these. Over the past *eleven* years of the MCU, I saw:
 
@@ -18,7 +18,7 @@ Despite missing out on the bulk of Phase Three, I still heard quite a lot about 
 
 It seems like the events of *Endgame* are going to be very important for *Spider-Man: Far From Home*, which I actually plan to see at some point. Tom Holland actually issued an *Endgame* spoiler warning at the start of one of the *Far From Home* trailers: it just goes to show how quickly all these films are being released. *Captain Marvel* was still in theatres: Marvel is really churning out superhero movies like sausages. I decided to delay watching the most spoiler-heavy *Far From Home* trailer because I was unsure about whether or not I would see *Endgame*.
 
-![I see this as an absolute win!](/endgame/attachments/win-small.jpg)
+![I see this as an absolute win!](/endgame/attachments/win-small.jpg) [Image credit: Walt Disney Company](class:credit)
 
 During *Endgame*'s opening week, spoiler warnings sprouted all over the internet like some sort of digitally transmitted fungus. However the warnings have recently started to recede, and the first *Endgame* [memes](https://knowyourmeme.com/memes/i-see-this-as-an-absolute-win) have started to proliferate. I needed to know the truth once and for all: would Ant-Man *really* crawl up Thanos' digestive tract? This is one of the reasons I finally caved in and decided to give *Endgame* a look.
 
@@ -26,7 +26,7 @@ The other reason is that I had fond memories of *Iron Man* and the first *Avenge
 
 ### The Part Where the Avengers Avenge Something
 
-![NASA's suggestion to save Tony Stark](/endgame/attachments/nasa-small.jpg)
+![NASA's suggestion to save Tony Stark](/endgame/attachments/nasa-small.jpg) [Image credit: unknown, National Aeronautics and Space Administration, Walt Disney Company](class:credit)
 
 The film started really strong, except for having Captain Marvel ferry Tony Stark back to Earth. It seemed like a waste to put Tony Stark in the deep darkness of space, only to return him to Earth in the first two minutes. I had no idea how he ended up there, having not seen *Infinity War*, but it seemed like something more dramatic was going to happen. On the other hand, it could have been [cornier](https://twitter.com/NASA/status/1071818572056403970).
 
@@ -44,7 +44,7 @@ By the way, the screening I went to did not include the grayscale footage of the
 
 ### The Part Where Everyone Parties Like It's 2012
 
-![Timeline Diagram](/endgame/attachments/timeline-small.png)
+![Timeline Diagram](/endgame/attachments/timeline-small.png) [Image credit: [E_Byron_Nelson on Reddit](https://www.reddit.com/r/MarvelStudiosSpoilers/comments/bhkdbm/my_comprehensive_ae_time_travel_plot_diagram/)](class:credit)
 
 I wasn't paying attention when the time travel rules were being explained. All I remember is the characters bringing up other time travel movies and claiming that they don't make sense. In *Back to the Future 2* they had the decency of giving Doc Brown a chalkboard, but *Endgame* only provides shots of Bruce Banner talking. I only realized that alternate timelines were being made after leaving the cinema. The diagram above, which I found [here](https://www.reddit.com/r/MarvelStudiosSpoilers/comments/bhkdbm/my_comprehensive_ae_time_travel_plot_diagram/) shows the full complexity of what was going on.
 
@@ -58,7 +58,7 @@ Bit of a pet peeve of mine, but *how come the film uses the Gregorian calendar i
 
 ### The Part With Fighting and Stuff
 
-![Avengers LEGO](/endgame/attachments/lego-small.jpg)
+![Avengers LEGO](/endgame/attachments/lego-small.jpg) [Image credit: LEGO Group](class:credit)
 
 Some reviewers didn't like how Past-Thanos was brought to the future. However, even when sitting in the theatre chair I knew that there was no telling how much preparation was involved. Past-Thanos and Past-Nebula could have had a multi-year time travel research team. It didn't worry me at all, really. Since I hadn't seen *Infinity War* I also wasn't too worried about Past-Thanos not really having a history fighting on Earth.
 

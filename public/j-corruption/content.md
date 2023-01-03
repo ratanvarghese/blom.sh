@@ -1,4 +1,4 @@
-![Crayon Twemoji](/j-corruption/attachments/thumbnail.svg)
+![Crayon Twemoji](/j-corruption/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 George, age 4, excitedly grabbed the green crayon and slammed it into the paper.
 

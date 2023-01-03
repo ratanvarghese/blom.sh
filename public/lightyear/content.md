@@ -2,7 +2,7 @@ Pixar's *Lightyear* was fine. I'd even call it good - but not great. I had a cou
 
 ### Isn't it a Bit Late?
 
-![Buzz Lightyear characters from the TV Show](/lightyear/attachments/tv_show.webp)
+![Buzz Lightyear characters from the TV Show](/lightyear/attachments/tv_show.webp) [Image credit: Walt Disney Company](class:credit)
 
 *Toy Story* was released in 27 years ago and *Toy Story 2* was 23 years ago. There was a Buzz Lightyear spin-off show and direct-to-video movie 22 years ago (which I had blissfully forgotten about). Even *Toy Story 3* is 12 years old, and one of the plot points of that movie was that a kid from the time of *Toy Story* would be old enough to go to college.
 
@@ -20,7 +20,7 @@ The trailer for [*Marcel the Shell with Shoes On*](https://en.wikipedia.org/wiki
 
 ### The Turnip People
 
-![The "turnip"](/lightyear/attachments/turnip.webp)
+![The "turnip"](/lightyear/attachments/turnip.webp) [Image credit: Walt Disney Company](class:credit)
 
 *Lightyear* has a plot with 3 distinct segments: an introduction, a video game mini-plot, and a finale.
 
@@ -38,7 +38,7 @@ I mentioned Buzz Lightyear as being stubborn and arrogant, but he is also very s
 
 ### Collect the Capacitors
 
-![Buzz, Izzy and friends](/lightyear/attachments/crew.webp)
+![Buzz, Izzy and friends](/lightyear/attachments/crew.webp) [Image credit: Walt Disney Company](class:credit)
 
 It is after Buzz steals a ship and does his successful hyperspace test that the video game mini-plot begins. It starts interesting with the twenty-year jump, and the introduction of Izzy Hawthorne, her friends, and Zurg. However it devolves into a fetch quest pretty quickly. The main characters must:
 
@@ -62,7 +62,7 @@ The more concerning thing about the sandwiches is the expiry date. If the ~~Star
 
 ### Zurg
 
-![Zurg](/lightyear/attachments/zurg.jpg)
+![Zurg](/lightyear/attachments/zurg.jpg) [Image credit: Walt Disney Company](class:credit)
 
 In the finale we finally learn Zurg's backstory. It's not *that* surprising  but I will omit some important details, as a bit of a self-imposed puzzle.
 

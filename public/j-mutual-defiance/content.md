@@ -1,4 +1,4 @@
-![Clubs Twemoji](/j-mutual-defiance/attachments/thumbnail.svg)
+![Clubs Twemoji](/j-mutual-defiance/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 "So how does the scoring work in this game again?" asked Lucy, on my left. "One point each time you play the highest card?"
 

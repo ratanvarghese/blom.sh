@@ -1,4 +1,4 @@
-![Musical note Twemoji](/j-seventies/attachments/thumbnail.svg)
+![Musical note Twemoji](/j-seventies/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 Amanda thumbed through the records on the shelf, waiting for Marcus.
 

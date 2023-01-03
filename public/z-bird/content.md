@@ -1,6 +1,6 @@
 For the first time in many years, I have finished drawing a maze. The full-size maze image is available [here](/z-bird/attachments/bird.jpg), a compressed version is below.
 
-![Bird maze](/z-bird/attachments/bird.webp)
+![Bird maze](/z-bird/attachments/bird.webp) [Image credit: Ratan Abraham Varghese](class:credit)
 
 The start (S) is at the tip of the beak, and the finish (F) is on the big toe. Yes, this maze *does* have a solution. But I'll be keeping that to myself.
 
@@ -18,5 +18,5 @@ That said, I did make several mistakes, partly due to inattention, and partly du
 
 Much like one of my older mazes from high school, I tried turning this one into a fractal pattern that I could use as a desktop background. In high school I used the Kaleidoscope filter in an application named Core Image Fun House: that application was Mac-specific and also, [is no longer supported](https://stackoverflow.com/questions/10939346/where-can-i-find-core-image-fun-house-app). But the same effect is available in GIMP, and also called Kaleidoscope. Once again, the full-size kaleidoscope image is available [here](/z-bird/attachments/kaleidoscope.jpg), and a compressed version is below.
 
-![Bird kaleidoscope](/z-bird/attachments/kaleidoscope.webp)
+![Bird kaleidoscope](/z-bird/attachments/kaleidoscope.webp) [Image credit: Ratan Abraham Varghese](class:credit)
 

@@ -1,4 +1,4 @@
-![Ant Twemoji](/j-farmers/attachments/thumbnail.svg)
+![Ant Twemoji](/j-farmers/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 The ants crawled across the sand, carrying their cargo in their mandibles. Some had leaves, others miniscule cuts of fruit. Some had the corpses of flies and spiders.
 

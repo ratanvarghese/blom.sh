@@ -1,4 +1,4 @@
-![Candy Twemoji](/j-candy-cane/attachments/thumbnail.svg)
+![Candy Twemoji](/j-candy-cane/attachments/thumbnail.svg) [Image credit: Twitter Twemoji](class:credit)
 
 **It was that fleeing hour of day when the moon and sun are high and bright at the same time. Like many things in my life, these summer nights wouldn't last much longer. I sat quietly on a** bench in the park, thinking about how this was the worst possible time to be entering the candy cane business.
 

@@ -2,7 +2,7 @@ I recently saw [*Avatar: The Way of Water*](https://www.imdb.com/title/tt1630029
 
 ### Predictions
 
-![Jake Sully](/predictions-for-avatar/attachments/jake_sully.webp)
+![Jake Sully](/predictions-for-avatar/attachments/jake_sully.webp) [Image credit: Walt Disney Company](class:credit)
 
 *The Way of Water* is only the first sequel of many. [There are plans for at least three more *Avatar* films](https://gizmodo.com/avatar-way-of-water-sequel-trilogy-james-cameron-1849756856). *The Way of Water* is not just a movie or even a sequel in the classic sense: it is the point where *Avatar* ends its life as a one-off curiosity and is [reincarnated](https://en.wikipedia.org/wiki/Avatar) as a mega-franchise that can compete with the likes of *Star Wars*, *Transformers* and the Marvel Cinematic Universe.
 
@@ -19,7 +19,7 @@ To be clear, these are *predictions*. These are not an attempt to form the coole
 
 ### Prediction 1: Biomes
 
-![Na'vi holding a Tulkun](/predictions-for-avatar/attachments/tulkun.webp)
+![Na'vi holding a Tulkun](/predictions-for-avatar/attachments/tulkun.webp) [Image credit: Walt Disney Company](class:credit)
 
 In some science fiction and fantasy franchises such as *Star Wars*, the audience only gets to see a single biome and one or two species of wildlife on each planet. This is clearly not the case with *Avatar*. One of the main attractions of *Avatar* is the diversity of alien flora and fauna. Weird fantasy animals that would be background in other films are *the* focus of *Avatar*. For example, in *The Way of Water*, there was a lot of worldbuilding around the design and behaviour of the “[tulkun](https://james-camerons-avatar.fandom.com/wiki/Tulkun)” (space whales), to the point where the cetaceans might be more interesting than some of the paper-thin humanoid characters.
 
@@ -35,7 +35,7 @@ In short: __every upcoming *Avatar* movie, except the series finale, will explor
 
 ### Prediction 2: Tribes
 
-![Leaders of the island Na'vi tribe](/predictions-for-avatar/attachments/tribe_leaders.webp)
+![Leaders of the island Na'vi tribe](/predictions-for-avatar/attachments/tribe_leaders.webp) [Image credit: Walt Disney Company](class:credit)
 
 In *The Way of Water*, the island Na’vi have a different culture and anatomy than the forest Na’vi. During the middle of the movie this causes all sorts of conflict between the Sully family and the island Na’vi they are seeking refuge with.
 
@@ -53,7 +53,7 @@ In short: __every upcoming *Avatar* movie, except the series finale, will introd
 
 ### Prediction 3: Extraction
 
-![Human-built "SeaDragon" ship](/predictions-for-avatar/attachments/seadragon.webp)
+![Human-built "SeaDragon" ship](/predictions-for-avatar/attachments/seadragon.webp) [Image credit: Walt Disney Company](class:credit)
 
 One of the neat bits of worldbuilding in the two *Avatar* films is that the humans are looking for a new resource each time. In the first movie, the humans mine for the precious metal “unobtainium”. In the second movie the humans hunt the tulkun for their brain fluid, “amrita”. 
 
@@ -67,7 +67,7 @@ In short: __every upcoming *Avatar* movie, except for the series finale, will in
 
 ### Prediction 4: Terraformation
 
-![Human spaceship landing](/predictions-for-avatar/attachments/landing.webp)
+![Human spaceship landing](/predictions-for-avatar/attachments/landing.webp) [Image credit: Walt Disney Company](class:credit)
 
 It is canon that the humans of *Avatar* are trying to move a large chunk of their population to Pandora, creating a "new home for humanity". The full implications of this exodus have not been explicitly spelled out yet, probably because the full implications would be grand enough to overshadow the actual plots of the first two movies. Problems this huge would only be suitable for the series finale.
 

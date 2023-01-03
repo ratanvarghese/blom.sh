@@ -8,7 +8,7 @@ Post titles are prefixed with their position on the "Most Controversial post of 
 
 ### /r/aww
 
-![r/aww](/innocent-controversy/attachments/aww.jpeg)
+![r/aww](/innocent-controversy/attachments/aww.jpeg) [Image credit: [amayaeguizabal on Pixabay](https://pixabay.com/users/amayaeguizabal-151412/)](class:credit)
 
 A subreddit where millions of people collaborate to find cute pictures of babies and small animals. What could possibly be [controversial](https://www.reddit.com/r/aww/controversial/) in a community like this?
 
@@ -22,13 +22,15 @@ It is amazing that OP lied multiple times in a single sentence. Truly masterful.
 
 None of it was cute.
 
+*EDIT 54-F26: obviously a joke lol*
+
 #### 15: I'm convinced my friend's new puppy can break Reddit...
 
 /r/aww just [doesn't get it](https://redd.it/1e3xsm). Viral marketing skills are much, much more cute than any puppy will ever be! I don't know about you, but when OP spells out how (s)he's a cynical karma farmer, it makes my heart flutter.
 
 ### /r/ImaginaryDragons
 
-![r/ImaginaryDragons](/innocent-controversy/attachments/imaginarydragons.png)
+![r/ImaginaryDragons](/innocent-controversy/attachments/imaginarydragons.png) [Image credit: [jes872148 on Pixabay](https://pixabay.com/users/jes872148-45991/)](class:credit)
 
 Sorry dracologists, this subreddit is focused on *imaginary* dragons *only*: real dragons need not apply. So what makes a dragon [controversial](https://www.reddit.com/r/ImaginaryDragons/controversial/)? Poor drawing skills and sultry gazes, most of the time. However there were some dragons on that page which were truly beyond imagining.
 
@@ -42,7 +44,7 @@ Sorry dracologists, this subreddit is focused on *imaginary* dragons *only*: rea
 
 ### /r/mechanical_gifs
 
-![r/mechanical_gifs](/innocent-controversy/attachments/mechanical_gifs.png)
+![r/mechanical_gifs](/innocent-controversy/attachments/mechanical_gifs.png) [Image credit: [stux on Pixabay](https://pixabay.com/it/users/stux-12364/)](class:credit)
 
 It's usually not the machines that are [controversial](https://www.reddit.com/r/mechanical_gifs/controversial/) but the presentation.
 
@@ -60,7 +62,7 @@ Why would anyone try to make a physically accurate GIF [in CSS](https://redd.it/
 
 ### /r/OddlySatisfying
 
-![r/OddlySatisfying](/innocent-controversy/attachments/oddlysatisfying.jpg)
+![r/OddlySatisfying](/innocent-controversy/attachments/oddlysatisfying.jpg) [Image credit: [Ash @ModernAfflatus on Pixnio](https://pixnio.com/objects/metal-spinning-top-focus-gold-instrument-marble-metal)](class:credit)
 
 A relatively large subreddit, focused on pursuing a deep sense of calm through the use of GIFs and JPEGs. Shouldn't that be antithetical to [controversy](https://www.reddit.com/r/oddlysatisfying/controversial/)? Well, think again.
 
@@ -74,7 +76,7 @@ Despite the neat aesthetic, I cannot help but feel bad for the writer in [this s
 
 ### /r/pokemon
 
-![r/pokemon](/innocent-controversy/attachments/pokemon.png)
+![r/pokemon](/innocent-controversy/attachments/pokemon.png) [Image credit: Nintendo, Game Freak](class:credit)
 
 [Yes](https://www.reddit.com/r/pokemon/controversial/).
 
@@ -88,7 +90,7 @@ Despite the neat aesthetic, I cannot help but feel bad for the writer in [this s
 
 ### /r/PutAnEggOnIt
 
-![r/putaneggonit](/innocent-controversy/attachments/putaneggonit.jpg)
+![r/putaneggonit](/innocent-controversy/attachments/putaneggonit.jpg) [Image credit: /r/putaneggonit](class:credit)
 
 Now, if you visit the home page of the subreddit, there's no indication that a "Controversial" page even exists. But [here it is](https://www.reddit.com/r/PutAnEggOnIt/controversial/). In fact, even /r/wholesomememes has a [hidden controversial page](https://www.reddit.com/r/wholesomememes/controversial/). Amazingly enough, /r/wholesomememes is not narrowly-defined enough to stem the tide of real controversies, unlike /r/PutAnEggOnIt.
 
@@ -104,7 +106,7 @@ If you think the [plug](https://redd.it/71owdb) is shameless, wait until you see
 
 ### /r/Raining
 
-![r/raining](/innocent-controversy/attachments/raining.jpeg)
+![r/raining](/innocent-controversy/attachments/raining.jpeg) [Image credit: [veeterzy on Pexels](https://www.pexels.com/@veeterzy/)](class:credit)
 
 Believe it or not, this is not the only subreddit focused on weather. Now, precipitation can be annoying, but can it really be [controversial](https://www.reddit.com/r/raining/controversial/)?
 

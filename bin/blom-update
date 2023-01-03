@@ -32,7 +32,7 @@ fi
 for dir in $site_root/*; do
 	[ ! -L "$dir" ] || continue
 	[ -e "$dir/item.json" ] || continue
-	blom-article -A "$dir" -T "$template_path" -S "$site_root" -i &
+	blom-article -A "$dir" -T "$template_path" -S "$site_root" &
 done
 wait
 
