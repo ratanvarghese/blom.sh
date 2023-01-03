@@ -215,6 +215,10 @@ flex-basis: 200px;
 padding: 10px;
 }
 
+div.creative-column:nth-of-type(2) {
+flex: 4;
+}
+
 div.creative-box-grid {
 display: flex;
 flex-direction: row;
