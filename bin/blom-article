@@ -138,6 +138,8 @@ if (( process_item != 0 )); then
 		--argjson TAGLIST "$tag_list" > $article_path/item.json
 fi
 
+tags_html=$(echo "$tag_list" | jq -r 'join("\n")' | sed -E "s|(.*)|<li><a href=\"$host_url/tags#\1\">#\1<\/a><\/li>|g")
+
 m4	-D_TITLE="$title" \
 	-D_ARTICLE_CLASS="$article_class" \
 	-D_TODAY_TQ="$today_tq" \
@@ -150,6 +152,7 @@ m4	-D_TITLE="$title" \
 	-D_PERMALINK="$relative_url" \
 	-D_MDLINK="$relative_url/content.md" \
 	-D_BASICLINK="$relative_url/content.html" \
+	-D_TAGS_LIST="$tags_html" \
 	$template_path/content.m4 $template_path/comment.m4 $template_path/page.html \
 	| tee $article_path/index.html \
 	| gzip --best --force > $article_path/index.html.gz

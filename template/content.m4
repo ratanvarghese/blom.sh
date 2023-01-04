@@ -12,5 +12,8 @@ _ARTICLE_CONTENT
 <li><a href="_MDLINK">Markdown</a></li>
 <li><a href="_BASICLINK">Basic HTML</a></li>
 </ul>
+<ul>
+_TAGS_LIST
+</ul>
 </nav>')
 divert
