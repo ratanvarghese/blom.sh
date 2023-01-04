@@ -30,6 +30,10 @@ Vibrations shifted through the museum rotunda, at the precise frequency needed t
 
 “It’s actually the 21st century.”
 
+### Notes
+
+This is the first draft of [Cardboard](/j-cardboard-1).
+
 ### Feedback from The Joy of Writing group
 
 + Is the Setup necessary? After the beginning? While talking?
