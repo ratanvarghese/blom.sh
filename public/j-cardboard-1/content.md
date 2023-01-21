@@ -56,7 +56,7 @@ The statue outstretched its ancient arm, and opened its continually pointing han
 
 "They certainly had emotions," said the statue. "And expressed them by trying to steal me and break my finger."
 
-"Oh, now that's juicy," said the cutout. The cutout's eyes widened upon their flat surface. "So you were valuable enough to be stolen. If only I could be so lucky."
+"Oh, now that's *juicy*," said the cutout. The cutout's eyes widened upon their flat surface. "So you were valuable enough to be stolen. If only I could be so lucky."
 
 "We are but chattel, you and I." said the statue. "With no more freedom than a farm animal or a house sl-"
 
@@ -70,9 +70,9 @@ The statue ceased speaking.
 
 ![Waning Crescent Moon Twemoji](/j-cardboard-1/attachments/thumbnail2.svg) [Image credit: Twitter Twemoji](class:credit)
 
-Several nights later when the sky was dimly lit by a waning crescent moon, the statue said, "What is it like to have color?"
+Several nights later when the sky was dimly lit by a waning crescent moon, the statue said, "What is it like to have colour?"
 
-"Oh these inks and dyes are real cheap," said the cardboard cutout. "But the color gives the artists plenty of opportunity to depict emotion!"
+"Oh, these inks and dyes are real cheap," said the cardboard cutout. "But the colour gives the artists plenty of opportunity to depict emotion!"
 
 The cutout's face turned as blue as the sea and said, "Now I'm cold. Probably how the Gaulic winter felt, eh?"
 
@@ -92,13 +92,13 @@ The statue smiled and said, "to make room for the fifth course of a ten course m
 
 "Indeed," the statue said.
 
-"So yeah, the colors are great for expressing moods, and for keeping my laurel wreath looking fresh. Essential skills when trying to sell costumes to eight-year olds. How about you? What is it like being all elegantly monochromatic?" the cutout said.
+"So yeah, the colours are great for expressing moods, and for keeping my laurel wreath looking fresh. Essential skills when trying to sell costumes to eight-year olds. How about you? What is it like being all elegantly monochromatic?" the cutout said.
 
-"I actually used to have color," the marble statue said.
+"I actually used to have colour," the marble statue said.
 
-"Really? I'm having a hard time imagining it, you'd look totally different in color!"
+"Really? I'm having a hard time imagining it, you'd look totally different in colour!"
 
-"Yes, I too was created in color. But over the centuries the colors faded and faded. Once I was a millenia old or so, I had become entirely pale. My skin, my hair, my armor, all of it the same shade of marble white."
+"Yes, I too was created in colour. But over the centuries the colours faded and faded. Once I was a millenia old or so, I had become entirely pale. My skin, my hair, my armor, all of it the same shade of marble white."
 
 "And then the Renaissance guys all liked the new look," said the cutout.
 
@@ -112,7 +112,7 @@ The statue smiled and said, "to make room for the fifth course of a ten course m
 
 On the night of the new moon, the museum rotunda was too dark for any person to navigate. The stars were visible through the skylights, but the walls and objects in the building seemed nothing more than shadows among shadows.
 
-Yet the iris-less eyes of the statue were could pierce the darkness like an owl, and the waves of cardboard in the cutout were as keen as the ears of a bat. So the two imitations of Caesar conversed again, as they did every night.
+Yet the iris-less eyes of the statue could pierce the darkness like an owl, and the waves of cardboard in the cutout were as keen as the ears of a bat. So the two imitations of Caesar conversed again, as they did every night.
 
 "If you can see my speech bubble right now," said the cutout, "you must have seen all sorts of incredible things during your existence."
 
@@ -140,11 +140,11 @@ The statue remained silent for a minute while the cutout jiggled in anticipation
 
 "That doesn't sound appropriate for the K-12 demographic," said the cutout.
 
-"Believe me, in my time, it was," the statue said. After letting out a brief whimper, the statue continued. "I'm propoganda for a monster."
+"Believe me, in my time, it was," the statue said. After letting out a brief whimper, the statue continued. "I'm propaganda for a monster."
 
-"Well, then I am too," said the cutout. "I was made to sell disposable junk to children, much of it made by people in terrible conditions. That 50% offer on centurion costumes? Only worth it because the vast economic machine we're part of keeps draining people's blood and sweat around the world to churn out more plastic doodads."
+"Well, then I am too," said the cutout. "I was made to sell disposable junk to children, much of it made by people in terrible conditions. That 50% offer on centurion costumes? Only worth it because the vast economic machine we're part of keeps draining peoples' blood and sweat, all around the world, just to churn out more plastic doodads."
 
-"So then," said the statue, "we are both works of propoganda."
+"So then," said the statue, "we are both works of propaganda."
 
 ![First Quarter Moon Twemoji](/j-cardboard-1/attachments/thumbnail4.svg) [Image credit: Twitter Twemoji](class:credit)
 
@@ -158,11 +158,11 @@ When the half moon rose again in the sky, the cutout asked the statue, "What is 
 
 "Well I'm sure if there was a statue of the King of Bythinia here, he'd have some nice things to-"
 
-"By the gods, I cannot beleive this!" the statue bellowed. The walls shook as the statue continued. "It has been TWO THOUSAND YEARS and people cannot JUST SHUT UP about the King of Bythinia. Oh remember that time Caesar was in Bythinia? Can you show me what the King of Bythinia was so happy about? Can you shake it like you're the Queen of Bythinia? Again and again and again for millenia! Seriously!"
+"By the gods, I cannot believe this!" the statue bellowed. The walls shook as the statue continued. "It has been TWO THOUSAND YEARS and people cannot JUST SHUT UP about the King of Bythinia. Oh remember that time Caesar was in Bythinia? Can you show me what the King of Bythinia was so happy about? Can you shake it like you're the Queen of Bythinia? Again and again and again for millenia! Seriously!"
 
-The statue's scowl was seemed dangerous enough to behead Pompeii the Great all by itself.
+The statue's scowl seemed dangerous enough to behead Pompeii the Great all by itself.
 
-"Not so colorless now, are you?" said the cutout.
+"Not so colourless now, are you?" said the cutout.
 
 ![Full Moon Twemoji](/j-cardboard-1/attachments/thumbnail5.svg) [Image credit: Twitter Twemoji](class:credit)
 
@@ -170,7 +170,7 @@ It was a full moon again when the cutout said, "Well, I suppose this is goodbye.
 
 "What do you mean?" asked the statue. "You are being transferred to another museum?"
 
-"No," said the cutout. "I am being recycled. I am being disposed and quite likely shredded."
+"No," said the cutout. "I am being recycled. I am being disposed of and quite likely shredded."
 
 The statue looked disturbed. "No," it said. "How could they do that to you?"
 
@@ -178,7 +178,7 @@ The statue looked disturbed. "No," it said. "How could they do that to you?"
 
 "What replacement? I do not understand," said the statue.
 
-"I'm a factory-made product. I can be replaced in the matter of days. In fact, a million replicas of me could be picked out of an online catalog. I'm not some one-of-a-kind work of art. I'm not a unique or important part of the culture. Not like you," said the cutout.
+"I can be replaced in a matter of days. In fact, a million replicas of me could be picked out of an online catalog. I'm not some one-of-a-kind work of art. I'm not a unique or important part of the culture. Not like you," said the cutout.
 
 "I will never forget you," said the statue. The statue's stone lips crawled into its airless mouth.
 
