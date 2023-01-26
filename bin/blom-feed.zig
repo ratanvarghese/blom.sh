@@ -133,10 +133,17 @@ fn rssFeedEntry(channel: ?*mxmlc.mxml_node_t, json_item: jsfItem, allocator: any
     const js_date = try std.cstr.addNullByte(allocator, json_item.date_published);
     defer allocator.free(js_date);
     var time_split: timec.tm = undefined;
-    _ = timec.strptime(js_date, "%Y-%m-%dT%H:%M:%S-04:00", &time_split);
+    const tp_result = timec.strptime(js_date, "%Y-%m-%dT%H:%M:%S", &time_split);
+    if (tp_result == null) {
+        std.debug.print("Error parsing date: {s}\n", .{js_date});
+        return error.TimeParseError;
+    }
     const memory = try allocator.alloc(u8, 50);
     defer allocator.free(memory);
-    _ = timec.strftime(@ptrCast(*u8, memory), memory.len, "%a, %d %b %Y %H:%M:%S -04:00", &time_split);
+    const tf_result = timec.strftime(@ptrCast(*u8, memory), memory.len, "%a, %d %b %Y %H:%M:%S -04:00", &time_split);
+    if (tf_result == 0) {
+        return error.TimeFormatError;
+    }
 
     _ = try addTextNode(item, "title", json_item.title, allocator);
     _ = try addTextNode(item, "link", json_item.url, allocator);
