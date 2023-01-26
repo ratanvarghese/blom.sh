@@ -29,3 +29,7 @@ I will not be so vulnerable to delusions of grandeur.
 I will park in the easternmost parking lot, and walk to the entrance furthest from the Tim Horton's so that I don't have to talk to Joshua about Moncton. I will place my keycard on the scanner and -
 
 No wait. It's Sunday.
+
+### Notes
+
+This was written in 15 minutes during a Joy of Writing meetup.
