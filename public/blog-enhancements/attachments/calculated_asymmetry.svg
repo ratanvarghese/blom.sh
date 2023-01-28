@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" width="500" height="500">
-  <rect width="500" height="500" fill="Indigo" />
-  <circle cx="250" cy="250" r="210" fill="Gold" />
-  <circle cx="250" cy="250" r="200" fill="Indigo" />
-  <polygon points="250,80 88.3,197.5 349.9,387.5 411.7,197.5" fill="Gold" />
-</svg>
-  

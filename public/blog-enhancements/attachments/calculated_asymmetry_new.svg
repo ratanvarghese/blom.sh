@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" width="500" height="500">
-  <rect width="500" height="500" fill="darkgreen" />
-  <circle cx="250" cy="250" r="210" fill="white"/>
-  <polygon points="150,250 150,380 380,380 380,120" fill="darkgreen" transform="rotate(135, 270, 250)"/>
-</svg>
