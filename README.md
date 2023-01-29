@@ -1,5 +1,7 @@
 # Blom, the Content Manager
 
+This project has been end-of-lifed. The successor project is [blom3](https://ratan.blog/fossil/blom3) (mirrored on GitHub [here](https://github.com/ratanvarghese/blom3))
+
 `blom` is the content manager for [my blog](http://ratan.blog). Other blogs should probably avoid using it.
 
 This version has most of the features of the [old implementation](https://github.com/ratanvarghese/blom), except for 
